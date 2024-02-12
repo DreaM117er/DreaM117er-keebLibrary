@@ -18,9 +18,9 @@
 
 |名稱|類型|備註|Library|Footprint|
 |---|---|---|---|---|
-|1N4148|DO-35|SMD、THT、F.Cu||![1N4148](pic/1n4148do35.png)|
-|1N4148|DO-35|SMD、THT、F.Cu、B.Cu|||
-|1N4148|SOD-123|SMD、F.Cu||![1N4148](pic/1n4148sod123.png)|
+|1N4148|DO-35|SMD、THT||![1N4148](pic/1n4148do35.png)|
+|1N4148|DO-35|SMD、THT|||
+|1N4148|SOD-123|SMD||![1N4148](pic/1n4148sod123.png)|
 |RKJXK1224|Joystick|THT||![](pic/rkjxk1224.png)|
 |FJ08K-S、B10-K|Joystick|THT||![](pic/b10k.png)|
 |NS Joy-con|Joystick|THT||![](pic/nsjoycon.png)|
