@@ -8,11 +8,9 @@
 
 ## 近期新增項目（New Update）
 
-- 
-- 
-- 
-- 
-- 
+- FJ08K-S library and footprint
+- NS Joy-con library and footprint
+- Switch Pro library and footprint
 
 ## 項目（Lists）
 
