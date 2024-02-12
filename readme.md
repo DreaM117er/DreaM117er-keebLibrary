@@ -11,6 +11,7 @@
 - FJ08K-S library and footprint
 - NS Joy-con library and footprint
 - Switch Pro library and footprint
+- Rename "Joystick" to "RKJXK1224", fix library and footprint
 
 ## 項目（Lists）
 
