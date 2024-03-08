@@ -50,7 +50,7 @@
   (fp_line (start 7.5 5) (end 7.7 5.07)
     (stroke (width 1.5) (type default)) (layer "Dwgs.User") (tstamp d894f771-1e7e-4f32-bc86-1f40cd0caad5))
   (fp_circle (center 0 0) (end 8 0)
-    (stroke (width 0.12) (type dash)) (fill none) (layer "Dwgs.User") (tstamp cdbb42c7-add4-4950-bced-dc50724481ba))
+    (stroke (width 0.12) (type solid)) (fill none) (layer "Margin") (tstamp cdbb42c7-add4-4950-bced-dc50724481ba))
   (pad "" np_thru_hole oval (at -7.55 0 90) (size 2.3 0.9) (drill oval 2 0.6) (layers "F&B.Cu" "*.Mask") (tstamp d837ac85-7815-492f-ae74-bd3d2bceada1))
   (pad "1" thru_hole circle (at 12.6 -8.8 90) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp aee3ac51-42ff-4e54-940e-8e419c285154))
   (pad "2" thru_hole circle (at 12.6 -6.8 90) (size 1.5 1.5) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 24faea80-b3e8-438e-bd63-6f4fac3ce08c))
