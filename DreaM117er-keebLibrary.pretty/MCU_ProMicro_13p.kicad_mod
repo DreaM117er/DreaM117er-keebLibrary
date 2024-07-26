@@ -3,7 +3,7 @@
   (property "Sheetfile" "Explorer Keyboard Mountain.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 2 180) (layer "F.SilkS") hide
+  (fp_text reference "REF**" (at 0 2 180) (layer "F.Fab")
       (effects (font (size 1.2 1.2) (thickness 0.2032)))
     (tstamp 09ff58fb-4c5e-4d80-a162-86d2771d0288)
   )

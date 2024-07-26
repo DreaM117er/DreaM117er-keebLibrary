@@ -3,8 +3,8 @@
   (property "Sheetfile" "1explorer-col.kicad_sch")
   (property "Sheetname" "")
   (attr through_hole)
-  (fp_text reference "REF**" (at 0 2 180) (layer "F.SilkS") hide
-      (effects (font (size 1.5 1.5) (thickness 0.2032)))
+  (fp_text reference "REF**" (at 0 2 180) (layer "F.Fab")
+      (effects (font (size 1.2 1.2) (thickness 0.2032)))
     (tstamp bfd67b43-900c-44bd-bde3-0400e6685296)
   )
   (fp_text value "MCU_Elite-C_12p" (at 0 0 180) (layer "F.SilkS") hide
