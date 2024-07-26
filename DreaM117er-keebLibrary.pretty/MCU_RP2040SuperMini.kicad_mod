@@ -45,7 +45,7 @@
   (fp_line (start 8.945 11.75) (end -8.945 11.75)
     (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 4aab826f-044c-400a-bd8f-ea0563ee384b))
   (fp_rect (start -4.5 -6.58) (end 4.5 -12.508)
-    (stroke (width 0.12) (type default)) (fill none) (layer "Dwgs.User") (tstamp 5f18a4d3-c548-48cd-950a-ee94d1d3aeda))
+    (stroke (width 0.12) (type default)) (fill none) (layer "F.Fab") (tstamp 5f18a4d3-c548-48cd-950a-ee94d1d3aeda))
   (pad "1" thru_hole rect (at -7.675 -10.16) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 41f0b8a4-7f07-4b82-bab4-fccf9fd2eb30))
   (pad "2" thru_hole roundrect (at -7.675 -7.62) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp c2101170-b1e8-4539-9681-dbdc2434f9b7))
   (pad "3" thru_hole rect (at -7.675 -5.08) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 55b12d1d-52d5-456a-a66e-8018336c9026))
