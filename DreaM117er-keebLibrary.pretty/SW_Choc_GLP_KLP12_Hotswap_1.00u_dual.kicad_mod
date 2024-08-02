@@ -465,7 +465,7 @@
   (pad "2" smd roundrect (at -6.275 5.75) (size 2.5 2.5) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1) (tstamp 0b5b14af-ec39-4566-8816-c5324834a146))
   (pad "2" thru_hole circle (at -5 -3.8) (size 3.6 3.6) (drill 3.05) (layers "*.Cu" "*.Mask") (tstamp 31b9b469-c8c2-43ad-96a0-099f66760c2e))
   (pad "2" thru_hole circle (at -4.4 4.7) (size 3.6 3.6) (drill 3.05) (layers "*.Cu" "*.Mask") (tstamp 0879d2df-dd39-4187-85d7-e155bf005c02))
-  (pad "2" smd roundrect (at -3.3 -6) (size 2.5 2.5) (layers "B.Cu" "B.Paste") (roundrect_rratio 0.1) (tstamp 961a2164-5e89-400b-9769-5656783bb8ae))
+  (pad "2" smd roundrect (at -3.3 -6) (size 2.5 2.5) (layers "B.Cu" "B.Paste" "B.Mask") (roundrect_rratio 0.1) (tstamp 961a2164-5e89-400b-9769-5656783bb8ae))
   (pad "2" thru_hole circle (at -2.6 5.75) (size 3.6 3.6) (drill 3.05) (layers "*.Cu" "*.Mask") (tstamp 02bc31b2-0e5c-4dc8-b94e-4bd771a04eae))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
     (offset (xyz 0 0 0))
