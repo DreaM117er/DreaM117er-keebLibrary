@@ -1320,7 +1320,7 @@
     )
   )
   (symbol "MCU_RP2040_CoreA_SMD" (pin_names (offset 0.635)) (in_bom yes) (on_board yes)
-    (property "Reference" "REF**" (at -9.525 13.97 0)
+    (property "Reference" "U1" (at -9.525 13.97 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "MCU_RP2040_CoreA_SMD" (at 13.97 17.145 90)
