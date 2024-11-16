@@ -85,6 +85,11 @@
   (pad "24" thru_hole roundrect (at 7.62 -10.65 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (roundrect_rratio 0.25) (tstamp 952675b4-260a-47f7-b9f9-65980a6cbc3e))
   (pad "25" thru_hole circle (at 7.62 -13.19 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp f5c0a029-8720-45cb-88dc-db0455597511))
   (pad "26" thru_hole circle (at 7.62 -15.73 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 9154fb8c-7b78-4d59-bfb0-2f24482a16f4))
+  (pad "27" thru_hole circle (at -5.08 14.75 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp ab06b086-c911-40dd-998f-eaaf1b95b1cc))
+  (pad "28" thru_hole circle (at -2.54 14.75 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 3527c349-dade-4e9b-aa12-1161a1e88a34))
+  (pad "29" thru_hole circle (at 0 14.75 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp aa633058-8425-4b38-8e89-e297960fe370))
+  (pad "30" thru_hole circle (at 2.54 14.75 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp a2d1541d-2d6f-421e-92f3-6b8b3dd4f536))
+  (pad "31" thru_hole circle (at 5.08 14.75 270) (size 1.7526 1.7526) (drill 1.0922) (layers "*.Cu" "*.Mask") (tstamp 2cba8228-f1b7-4bf6-8331-8c18eac6917c))
   (model "/Users/danny/Documents/proj/custom-keyboard/kicad-libs/3d_models/ArduinoProMicro.wrl"
     (offset (xyz -13.96999979 -7.619999886 -5.841999912))
     (scale (xyz 0.395 0.395 0.395))
