@@ -1,4 +1,4 @@
-(footprint "SW_MicroSwitches_Kailh_THT" (version 20221018) (generator pcbnew)
+(footprint "SW_MicroSwitches_Kailh_THT_Mod" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Kailh keyswitch Hotswap Socket Keycap 2.50u 90deg")
   (tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 2.50u 90deg")
@@ -7,7 +7,7 @@
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 597f1b39-2ca7-4c0a-8eac-57cf40e696b2)
   )
-  (fp_text value "SW_MicroSwitches_Kailh_THT" (at 0 13.8) (layer "F.Fab") hide
+  (fp_text value "SW_MicroSwitches_Kailh_THT_Mod" (at 0 13.8) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp d79f8585-ff19-45fc-aeac-9817f19f5739)
   )
@@ -47,9 +47,9 @@
     (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp 1e974c68-89b8-4eb1-855c-b76254665e6d))
   (fp_line (start 2.9 12.8) (end 2.9 0)
     (stroke (width 0.12) (type default)) (layer "Dwgs.User") (tstamp a9b45cae-133f-4cb3-b46e-86934060894b))
-  (pad "1" thru_hole circle (at 0 1.32 90) (size 1.8 1.8) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp b9efc343-8ff3-4114-9483-b1a7e73b4c96))
-  (pad "2" thru_hole circle (at 0 6.4 90) (size 1.8 1.8) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 450f4efe-c0ec-4eb6-9a8b-1264ed5616a9))
-  (pad "3" thru_hole circle (at 0 11.48 90) (size 1.8 1.8) (drill 1.1) (layers "*.Cu" "*.Mask") (tstamp 7bd1a56b-459e-4df3-a627-d138a2946e4f))
+  (pad "" np_thru_hole circle (at 0 11.48 90) (size 1.1 1.1) (drill 1.1) (layers "F&B.Cu" "*.Mask") (tstamp 7bd1a56b-459e-4df3-a627-d138a2946e4f))
+  (pad "1" thru_hole circle (at 0 1.32 90) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp b9efc343-8ff3-4114-9483-b1a7e73b4c96))
+  (pad "2" thru_hole circle (at 0 6.4 90) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 450f4efe-c0ec-4eb6-9a8b-1264ed5616a9))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
