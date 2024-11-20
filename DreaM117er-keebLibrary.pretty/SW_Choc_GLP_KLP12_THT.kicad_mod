@@ -38,6 +38,15 @@
   (pad "1" thru_hole circle (at 4.4 -4.7 180) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 71c0d9f9-966b-4231-a053-b83a3bb33e8f))
   (pad "1" thru_hole circle (at 5 -3.8) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp d41b8800-2514-4855-8f3a-a3caa6d26af5))
   (pad "2" thru_hole circle (at -2.6 -5.75 180) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 1d225c05-6cff-4efc-a5dc-6eca47b6b61e))
+  (pad "2" smd custom (at -1.27 -5.825 3.3) (size 2.5 0.5) (layers "F.Cu")
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ) (tstamp eea8ab42-3089-4ea8-bbfe-69488a8f1106))
+  (pad "2" smd custom (at -1.27 -5.825 3.3) (size 2.5 0.5) (layers "B.Cu")
+    (thermal_bridge_angle 45)
+    (options (clearance outline) (anchor rect))
+    (primitives
+    ) (tstamp 01ac15e8-9621-4086-8dbf-0cfe28a69ee9))
   (pad "2" thru_hole circle (at 0 -5.9) (size 2.4 2.4) (drill 1.6) (layers "*.Cu" "*.Mask") (tstamp 22c29398-8a15-4038-92d6-af5fb22af93e))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
     (offset (xyz 0 0 0))
