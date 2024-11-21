@@ -118,8 +118,8 @@
   (pad "" np_thru_hole oval (at -2 -5.2 180) (size 3.2 1.6) (drill oval 2.8 1.2) (layers "F&B.Cu" "*.Mask") (tstamp 1a52df58-c608-4e13-9280-e178b8dcff5d))
   (pad "" np_thru_hole oval (at -2 5.2 180) (size 3.2 1.6) (drill oval 2.8 1.2) (layers "F&B.Cu" "*.Mask") (tstamp 942958c4-c2ab-4d29-86d2-37145851a182))
   (pad "A" thru_hole circle (at 0 -2.46 90) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 9be844cf-fbe6-40cf-abba-304068b6acb0))
-  (pad "B" thru_hole circle (at 0 2.54 90) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 58ef7960-67b8-4c3c-a119-50cf3f73f8e1))
-  (pad "C" thru_hole circle (at 0 0.04 90) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 52ac8b38-7f29-4219-a48e-f9425f8c896e))
+  (pad "B" thru_hole circle (at 0 0.04 90) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 52ac8b38-7f29-4219-a48e-f9425f8c896e))
+  (pad "C" thru_hole circle (at 0 2.54 90) (size 1.524 1.524) (drill 1) (layers "*.Cu" "*.Mask") (tstamp 58ef7960-67b8-4c3c-a119-50cf3f73f8e1))
   (model "${KICAD6_3DMODEL_DIR}/Rotary_Encoder.3dshapes/RotaryEncoder_Bourns_Horizontal_PEC12R-2xxxF-Nxxxx.wrl"
     (offset (xyz 0 0 0))
     (scale (xyz 1 1 1))
