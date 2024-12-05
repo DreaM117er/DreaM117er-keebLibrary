@@ -1,4 +1,4 @@
-(footprint "SW_Kailh_Stablizer_LP_6.25u" (version 20221018) (generator pcbnew)
+(footprint "SW_Kailh_Stablizer_LP1350_6.25u" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Plated Keycap 1.00u")
   (tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout Keycap 1.00u")
@@ -11,7 +11,7 @@
       (effects (font (size 0.8 0.8) (thickness 0.12)))
     (tstamp 5f4e5990-94a2-4dc2-ab23-fcc80ee4f285)
   )
-  (fp_text value "Stab_KLP_6.25u" (at 0 8.525 180) (layer "F.Fab") hide
+  (fp_text value "Stab_KLP1350_6.25u" (at 0 8.525 180) (layer "F.Fab") hide
       (effects (font (size 1 1) (thickness 0.15)))
     (tstamp 60b7b7f3-292b-4fbb-81ba-bbea8fa61799)
   )
