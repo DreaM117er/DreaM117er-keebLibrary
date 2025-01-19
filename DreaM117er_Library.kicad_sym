@@ -757,7 +757,7 @@
     (property "Reference" "L" (at 0 7.62 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "SK6212Mini-E" (at 0 5.08 0)
+    (property "Value" "SK6812Mini-E" (at 0 5.08 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "DreaM117er-keebLibrary:LED_SK6812MINI-E" (at 0 -5.08 0)
