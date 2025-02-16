@@ -1,4 +1,4 @@
-(footprint "SW_Choc_GLP_KLP12_Hotswap_1.00u_dual" (version 20221018) (generator pcbnew)
+(footprint "SW_Choc_GLP_KLP12_Hotswap_Plated_1.00u_dual" (version 20221018) (generator pcbnew)
   (layer "F.Cu")
   (descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Plated Keycap 1.00u")
   (tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout Keycap 1.00u")
