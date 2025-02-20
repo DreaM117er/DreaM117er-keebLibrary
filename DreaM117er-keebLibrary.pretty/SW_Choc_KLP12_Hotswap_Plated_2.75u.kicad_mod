@@ -215,8 +215,8 @@
   (pad "" np_thru_hole circle (at 5.5 0) (size 1.9 1.9) (drill 1.9) (layers "*.Cu" "*.Mask") (tstamp 0046ef68-665d-4b82-8f3d-54c1181d759f))
   (pad "" smd roundrect (at 8.1 -3.8) (size 1.6 2.5) (layers "B.Paste") (roundrect_rratio 0.15625) (tstamp 5ef043d2-8ad5-47e1-b91f-0a006e3f3216))
   (pad "1" thru_hole circle (at 5 -3.8) (size 3.6 3.6) (drill 3) (layers "*.Cu" "*.Mask") (tstamp fe3360a5-ca76-4879-a76b-517436745462))
-  (pad "1" smd roundrect (at 6.975 -3.8) (size 3.85 2.5) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.1) (tstamp 7d3ce00c-344f-4303-a506-4c84cfef8c17))
-  (pad "2" smd roundrect (at -1.975 -6) (size 3.85 2.5) (layers "B.Cu" "B.Mask") (roundrect_rratio 0.1) (tstamp efd10445-2753-4f83-9f8c-c4791f1fd5ac))
+  (pad "1" smd roundrect (at 6.975 -3.8) (size 3.85 2.5) (layers "B.Cu") (roundrect_rratio 0.1) (tstamp 7d3ce00c-344f-4303-a506-4c84cfef8c17))
+  (pad "2" smd roundrect (at -1.975 -6) (size 3.85 2.5) (layers "B.Cu") (roundrect_rratio 0.1) (tstamp efd10445-2753-4f83-9f8c-c4791f1fd5ac))
   (pad "2" thru_hole circle (at 0 -5.9) (size 3.6 3.6) (drill 3) (layers "*.Cu" "*.Mask") (tstamp eb150d1a-35f6-45a1-8f88-8e70c93870a9))
   (model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
     (offset (xyz 0 0 0))
