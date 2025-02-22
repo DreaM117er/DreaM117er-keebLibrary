@@ -87,6 +87,8 @@
     (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 18bd63ec-5a85-4e54-a740-6a88baa16a9e))
   (fp_line (start -2.452 -4.377) (end -2.452 -7.523)
     (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 8787f6b8-e3b6-4fb1-956c-fb2b019cc746))
+  (fp_line (start -1.523 -8.452) (end 1.278 -8.452)
+    (stroke (width 0.05) (type default)) (layer "B.CrtYd") (tstamp f9428794-8cb0-4ab7-90c9-75d71ae1062e))
   (fp_line (start -1.523 -3.448) (end -2.452 -4.377)
     (stroke (width 0.05) (type solid)) (layer "B.CrtYd") (tstamp 1c0c54a1-9b28-4f57-ba85-d5f7fe7067b4))
   (fp_line (start 1.159 -3.448) (end -1.523 -3.448)
