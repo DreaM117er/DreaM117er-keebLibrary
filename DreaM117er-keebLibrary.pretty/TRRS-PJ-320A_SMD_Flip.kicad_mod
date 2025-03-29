@@ -51,8 +51,6 @@
     (stroke (width 0.1) (type default)) (layer "Eco2.User") (tstamp f08f06f8-f003-4190-b0aa-5fb0f5872e8f))
   (fp_line (start 2.35 -0.15) (end 3.1 -0.15)
     (stroke (width 0.1) (type default)) (layer "Eco2.User") (tstamp 2c81153b-b28a-4dcd-8399-75e86618898b))
-  (fp_line (start -3.1 12.403) (end -3.1 -0.15)
-    (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp b0b02ac2-8b27-4f76-9503-9afc8ea5d76f))
   (fp_line (start -3.1 13.203) (end -3.1 -0.15)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp dd83d0d4-7e4d-4397-a6ba-c4e9c18768ef))
   (fp_line (start -2.39 13.203) (end 2.39 13.203)
