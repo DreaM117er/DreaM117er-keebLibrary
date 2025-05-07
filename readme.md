@@ -8,8 +8,6 @@
 
 ## 近期新增項目（New Update）
 
-- Conn_2.54mm_01x(1-10)_pin.
-- PG1353 Series(Key, Stablizers)
 - PG1316S.
-- Testpoint(for my style)
+- PJ-381B, PJ-381C, Dual.
 
