@@ -643,14 +643,14 @@
 	(pad "1" smd trapezoid
 		(at -2.5 3.8 90)
 		(size 1 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "5236cd76-8e4e-475e-8f67-a8253fa22470")
 	)
 	(pad "1" smd trapezoid
 		(at -2.5 3.8 270)
 		(size 1 0.5)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "7b9a005f-e047-4530-bf67-fb52f411fc00")
 	)
@@ -677,14 +677,14 @@
 	(pad "2" smd trapezoid
 		(at 2.5 3.8 90)
 		(size 1 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "958fff3b-4db6-4b06-ad59-c64269996cf2")
 	)
 	(pad "2" smd trapezoid
 		(at 2.5 3.8 270)
 		(size 1 0.5)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "ab3487b8-8096-4e34-8f62-4625fbb47eb5")
 	)
