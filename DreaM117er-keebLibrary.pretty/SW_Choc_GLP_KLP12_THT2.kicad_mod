@@ -149,22 +149,6 @@
 		(uuid "c4a020f6-c5cb-4f38-af5f-9cc8033dc72f")
 	)
 	(pad "1" thru_hole circle
-		(at -4.4 4.7)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "71c0d9f9-966b-4231-a053-b83a3bb33e8f")
-	)
-	(pad "1" thru_hole circle
-		(at 0 -5.9)
-		(size 2.4 2.4)
-		(drill 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "22c29398-8a15-4038-92d6-af5fb22af93e")
-	)
-	(pad "2" thru_hole circle
 		(at 2.6 5.75)
 		(size 2.4 2.4)
 		(drill 1.6)
@@ -172,13 +156,29 @@
 		(remove_unused_layers no)
 		(uuid "1d225c05-6cff-4efc-a5dc-6eca47b6b61e")
 	)
-	(pad "2" thru_hole circle
+	(pad "1" thru_hole circle
 		(at 5 -3.8)
 		(size 2.4 2.4)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "d41b8800-2514-4855-8f3a-a3caa6d26af5")
+	)
+	(pad "2" thru_hole circle
+		(at -4.4 4.7)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "71c0d9f9-966b-4231-a053-b83a3bb33e8f")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -5.9)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "22c29398-8a15-4038-92d6-af5fb22af93e")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
