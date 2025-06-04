@@ -76,6 +76,17 @@
 		(layer "Dwgs.User")
 		(uuid "d581043a-04f0-4df4-bd28-919c8967387c")
 	)
+	(fp_rect
+		(start -7.05 -7.05)
+		(end 7.05 7.05)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "b66dbbf3-40f3-481e-afc5-c812ef864405")
+	)
 	(fp_line
 		(start -7.75 -7.75)
 		(end -7.75 7.75)
@@ -115,17 +126,6 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "92451764-2f15-4814-8cf9-98999e8b1d75")
-	)
-	(fp_rect
-		(start -7.05 -7.05)
-		(end 7.05 7.05)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(fill no)
-		(layer "User.1")
-		(uuid "b66dbbf3-40f3-481e-afc5-c812ef864405")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 0 180)
