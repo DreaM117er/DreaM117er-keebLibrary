@@ -8,7 +8,7 @@
 	(property "Reference" "REF**"
 		(at -6.75 -6.25 180)
 		(layer "F.SilkS")
-		(uuid "126a63b8-cf77-4b1d-8e39-a841b9e9a66d")
+		(uuid "4c0981e5-a4f6-429f-ac44-c218a557ed98")
 		(effects
 			(font
 				(size 0.8 0.8)
@@ -20,7 +20,7 @@
 	(property "Value" "LP-THT"
 		(at -6.5 8.5 0)
 		(layer "F.Fab")
-		(uuid "532351e8-36d5-42f0-bf2a-f3f46e97e417")
+		(uuid "143cc252-3886-4b95-bb0a-13d6de12bef9")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "64515b63-1516-4779-a432-8befb889ad65")
+		(uuid "e9d7d587-c3df-4d57-b4a2-3f2d7f2cfa15")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "045ba0d8-8236-425a-8552-2aca283802fb")
+		(uuid "8647d0a9-0799-499f-bdc1-7bbec07c652e")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -64,7 +64,7 @@
 			(justify left mirror)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_rect
 		(start -9.525 -9.525)
 		(end 9.525 9.525)
@@ -276,15 +276,4 @@
 		(uuid "b77064ac-bd87-42c0-bf64-cf1eaad08bda")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )

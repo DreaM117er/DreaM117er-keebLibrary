@@ -1973,4 +1973,15 @@
 			(xyz 0 0 0)
 		)
 	)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+		(offset
+			(xyz 0 0 -1.6)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -0 -180 -0)
+		)
+	)
 )

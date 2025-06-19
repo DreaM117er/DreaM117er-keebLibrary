@@ -51,7 +51,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr through_hole)
 	(fp_rect
 		(start -9.525 -9.525)
 		(end 9.525 9.525)
@@ -209,15 +209,4 @@
 		(uuid "22c29398-8a15-4038-92d6-af5fb22af93e")
 	)
 	(embedded_fonts no)
-	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
-		(offset
-			(xyz 0 0 0)
-		)
-		(scale
-			(xyz 1 1 1)
-		)
-		(rotate
-			(xyz 0 0 0)
-		)
-	)
 )
