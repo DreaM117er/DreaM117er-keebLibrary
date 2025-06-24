@@ -387,6 +387,13 @@
 		(remove_unused_layers no)
 		(uuid "cb94bca3-b44f-46d7-898c-308643a60f04")
 	)
+	(pad "1" smd trapezoid
+		(at -2.53 0)
+		(size 2.54 0.5)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "68287122-2370-49c7-862a-d822d15e92bc")
+	)
 	(pad "1" smd roundrect
 		(at -1.65 0)
 		(size 0.9 1.2)
@@ -400,6 +407,13 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(roundrect_rratio 0.25)
 		(uuid "1a109eef-435d-4f03-a7cc-b9044081cb4d")
+	)
+	(pad "2" smd trapezoid
+		(at 2.54 0)
+		(size 2.54 0.5)
+		(layers "F.Cu")
+		(thermal_bridge_angle 45)
+		(uuid "5b24616b-6eb9-4097-ac7c-b08cf758b105")
 	)
 	(pad "2" thru_hole oval
 		(at 3.8 0)
