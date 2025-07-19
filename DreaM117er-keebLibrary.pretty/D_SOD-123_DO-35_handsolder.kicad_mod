@@ -18,7 +18,7 @@
 	)
 	(property "Value" "D_SOD-123_DO-35_handsolder"
 		(at 0 2.1 0)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(uuid "4551abc5-851e-4a58-835a-eb5d7c377745")
 		(effects
 			(font
@@ -284,7 +284,7 @@
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 -2 0)
-		(layer "Dwgs.User")
+		(layer "F.Fab")
 		(uuid "4f90bbd4-6f20-43ef-9a5c-39213e1bf515")
 		(effects
 			(font
