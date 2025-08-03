@@ -96,6 +96,46 @@
 		(layer "F.SilkS")
 		(uuid "5bf24125-9a2a-426b-a0c1-250e4031d2d8")
 	)
+	(fp_line
+		(start -1.27 -1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2064e2b8-6cc0-4a8c-b498-17882c211b09")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end -1.27 -1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "511e3fc4-d0a6-4afc-81b5-9dfe08cefd01")
+	)
+	(fp_line
+		(start 3.81 -1.27)
+		(end 3.81 1.27)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "96d31641-4648-499e-84e8-5e61682bebdc")
+	)
+	(fp_line
+		(start 3.81 1.27)
+		(end -1.27 1.27)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.Fab")
+		(uuid "1447aea5-5696-44b1-9aed-bceaf77fb862")
+	)
 	(fp_text user "01"
 		(at 4.74 0 0)
 		(unlocked yes)
