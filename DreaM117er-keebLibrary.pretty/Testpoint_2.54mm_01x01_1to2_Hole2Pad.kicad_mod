@@ -86,17 +86,6 @@
 		(uuid "8da7d954-d64c-456a-822e-05226d2fa125")
 	)
 	(fp_arc
-		(start -0.940452 0.940452)
-		(mid -1.33 0)
-		(end -0.940452 -0.940452)
-		(stroke
-			(width 0.3)
-			(type default)
-		)
-		(layer "F.SilkS")
-		(uuid "d368262b-96e1-44c9-870f-cde8daf0447f")
-	)
-	(fp_arc
 		(start 3.480452 -0.940452)
 		(mid 3.87 0)
 		(end 3.480452 0.940452)
