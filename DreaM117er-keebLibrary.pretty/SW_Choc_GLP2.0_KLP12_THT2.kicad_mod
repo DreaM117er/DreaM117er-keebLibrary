@@ -1,4 +1,4 @@
-(footprint "SW_Choc_GLP_KLP12_THT"
+(footprint "SW_Choc_GLP2.0_KLP12_THT2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -6,7 +6,7 @@
 	(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Plated Keycap 1.00u")
 	(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout Keycap 1.00u")
 	(property "Reference" "REF**"
-		(at 4.75 6.3 0)
+		(at 7.2 8.5 0)
 		(layer "F.SilkS")
 		(uuid "355e025f-5d67-4e39-a795-8d26ce80014d")
 		(effects
@@ -14,10 +14,11 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Value" "REF**"
-		(at 4.75 6.3 0)
+		(at -5.55 -4.55 90)
 		(layer "F.Fab")
 		(uuid "f03435fc-9446-41d3-bf7f-bbcbf997407e")
 		(effects
@@ -25,6 +26,7 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+			(justify bottom)
 		)
 	)
 	(property "Datasheet" ""
@@ -133,13 +135,6 @@
 		(uuid "95a735bc-cec8-4e22-a3e5-72701cf85846")
 	)
 	(pad "" np_thru_hole circle
-		(at -5 5.15)
-		(size 1 1)
-		(drill 1)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "6dc154c0-acc9-4139-8eb4-0aa972afc93a")
-	)
-	(pad "" np_thru_hole circle
 		(at 0 0)
 		(size 5.1 5.1)
 		(drill 5.1)
@@ -154,12 +149,12 @@
 		(uuid "c4a020f6-c5cb-4f38-af5f-9cc8033dc72f")
 	)
 	(pad "1" thru_hole circle
-		(at 4.4 -4.7 180)
+		(at 2.6 5.75)
 		(size 2.4 2.4)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "71c0d9f9-966b-4231-a053-b83a3bb33e8f")
+		(uuid "1d225c05-6cff-4efc-a5dc-6eca47b6b61e")
 	)
 	(pad "1" thru_hole circle
 		(at 5 -3.8)
@@ -170,35 +165,12 @@
 		(uuid "d41b8800-2514-4855-8f3a-a3caa6d26af5")
 	)
 	(pad "2" thru_hole circle
-		(at -2.6 -5.75 180)
+		(at -4.4 4.7)
 		(size 2.4 2.4)
 		(drill 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "1d225c05-6cff-4efc-a5dc-6eca47b6b61e")
-	)
-	(pad "2" smd custom
-		(at -1.3 -5.825 3.3)
-		(size 3 1.353)
-		(layers "F.Cu")
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "e60a5947-c17e-4efd-add1-af9ea8f3cfc9")
-	)
-	(pad "2" smd custom
-		(at -1.3 -5.825 3.3)
-		(size 3 1.353)
-		(layers "B.Cu")
-		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "455f01a6-dba5-4678-ae7f-2d8363e30a0f")
+		(uuid "71c0d9f9-966b-4231-a053-b83a3bb33e8f")
 	)
 	(pad "2" thru_hole circle
 		(at 0 -5.9)

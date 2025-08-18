@@ -1,0 +1,128 @@
+(footprint "SW_Choc_GLP2.0_THT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Gateron Low Profile style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.")
+	(tags "switch, low_profile, hot_swap")
+	(property "Reference" "REF**"
+		(at -4.48 6 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "460050ed-3627-4dc4-b950-364172deab2e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "REF**"
+		(at 5.96 4.39 90)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "96f9f336-7668-4a45-b3ce-4cc736fe2e35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cfaa9965-66e3-4cfc-a5c2-20110588f14c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, normally open, two pins, 45° tilted"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "8f3a169f-f5bd-404a-8238-82333f341f47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -9.525 9.525)
+		(end 9.525 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "11381382-d4e0-402d-b53e-718fc5e988e0")
+	)
+	(fp_rect
+		(start -8.25 8.25)
+		(end 8.25 -8.25)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "d4d5d2f9-7337-4a16-8798-39ccbda4c76f")
+	)
+	(fp_rect
+		(start -7.05 7.05)
+		(end 7.05 -7.05)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "c6bdb55b-ff56-4606-b697-8227250772d1")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "c1df53a8-efd4-4a94-a3cf-abb82fe7460d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 5.1 5.1)
+		(drill 5.1)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "64c3c85a-c51f-4942-88ba-d11d210e166d")
+	)
+	(pad "1" thru_hole circle
+		(at 4.4 -4.7 180)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "a03e0510-259e-4bcc-aac7-b5f96adb281f")
+	)
+	(pad "2" thru_hole circle
+		(at -2.6 -5.75 180)
+		(size 2.4 2.4)
+		(drill 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "81ca3b27-002a-4619-adce-cc3648f00d2e")
+	)
+	(embedded_fonts no)
+)

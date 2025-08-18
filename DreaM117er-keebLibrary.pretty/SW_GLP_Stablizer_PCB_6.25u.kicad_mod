@@ -1,0 +1,175 @@
+(footprint "SW_GLP_Stablizer_PCB_6.25u"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Plated Keycap 1.00u")
+	(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Plated Cutout Keycap 1.00u")
+	(property "Reference" "H1"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5f4e5990-94a2-4dc2-ab23-fcc80ee4f285")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
+	)
+	(property "Value" "Stab_GLP_2.00u"
+		(at 0 8.525 180)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "60b7b7f3-292b-4fbb-81ba-bbea8fa61799")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6319aef2-bea5-445d-92f5-ab522a6ca659")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Push button switch, generic, two pins"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "763b1dff-cbc5-424c-acd1-b04134c18413")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -53 -5.45)
+		(end -53 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "223a6277-b92f-4d3f-9872-d29d1b60f07b")
+	)
+	(fp_line
+		(start -47 -5.45)
+		(end -53 -5.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "90301997-6e39-47ab-9d0f-e3075a28a24d")
+	)
+	(fp_line
+		(start -47 -5.45)
+		(end -47 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "c730a705-05ef-4144-842a-898eca5e19a3")
+	)
+	(fp_line
+		(start -47 7)
+		(end -53 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "6b2b7074-e360-45e9-83de-7ee29a0e8bfe")
+	)
+	(fp_line
+		(start 47 -5.45)
+		(end 47 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "fc034159-c9c0-4ee4-a57c-f95e1a399508")
+	)
+	(fp_line
+		(start 53 -5.45)
+		(end 47 -5.45)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "dd231b4b-2d32-470b-9af9-26a628dab79a")
+	)
+	(fp_line
+		(start 53 -5.45)
+		(end 53 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "571ae04c-f401-4743-b31a-9679d3104c13")
+	)
+	(fp_line
+		(start 53 7)
+		(end 47 7)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Edge.Cuts")
+		(uuid "722bdf47-6691-4b3f-897e-c6f0385ab2f3")
+	)
+	(fp_text user "Plate Edge"
+		(at -50 9 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "133617ac-4103-4553-b8c5-df9cf4f5fef6")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(fp_text user "Plate Edge"
+		(at 50 9 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "1901b65d-4819-49d3-a6f5-dfe471c3cdc2")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify bottom)
+		)
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

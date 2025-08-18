@@ -1,4 +1,4 @@
-(footprint "SW_Dual_Choc_GLP_KLP12_Hotswap_Plated_1.00u"
+(footprint "SW_Dual_Choc_GLP2.0_KLP12_Hotswap_Plated_1.00u"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
