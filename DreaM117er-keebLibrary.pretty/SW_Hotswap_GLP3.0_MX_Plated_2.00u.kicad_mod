@@ -575,8 +575,8 @@
 	)
 	(pad "" np_thru_hole circle
 		(at 0 0)
-		(size 5.1 5.1)
-		(drill 5.1)
+		(size 4.7 4.7)
+		(drill 4.7)
 		(layers "F&B.Cu" "*.Mask")
 		(uuid "db084b4b-e2de-40d1-9d7c-8b1ef35b814e")
 	)
