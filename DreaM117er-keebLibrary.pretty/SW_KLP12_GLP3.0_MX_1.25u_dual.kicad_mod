@@ -1,4 +1,4 @@
-(footprint "SW_KLP12_GLP3.0_MX_1.00u_dual"
+(footprint "SW_KLP12_GLP3.0_MX_1.25u_dual"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -54,8 +54,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -9.525 -9.525)
-		(end -9.525 9.525)
+		(start -11.90625 -9.525)
+		(end -11.90625 9.525)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -64,28 +64,28 @@
 		(uuid "277a5a6f-6a03-4fc1-a14f-52da55ecef06")
 	)
 	(fp_line
-		(start -9.525 9.525)
-		(end 9.525 9.525)
+		(start 11.90625 -9.525)
+		(end -11.90625 -9.525)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "c4b2148e-fd1d-457e-b57d-2946365199c2")
+		(uuid "7a87bc56-61aa-4725-9d35-b034a76b9033")
 	)
 	(fp_line
-		(start 9.525 -9.525)
-		(end -9.525 -9.525)
+		(start 11.90625 9.525)
+		(end -11.90625 9.525)
 		(stroke
 			(width 0.1)
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "e4b01f5b-a597-421f-87ef-68ae42102523")
+		(uuid "4e8b5c77-9f81-4eff-9ea2-9e40c5778539")
 	)
 	(fp_line
-		(start 9.525 9.525)
-		(end 9.525 -9.525)
+		(start 11.90625 9.525)
+		(end 11.90625 -9.525)
 		(stroke
 			(width 0.1)
 			(type solid)
