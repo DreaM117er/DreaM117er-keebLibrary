@@ -559,13 +559,6 @@
 			)
 		)
 	)
-	(pad "" smd roundrect
-		(at -7.085 -2.54)
-		(size 2.55 2.5)
-		(layers "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "0ec96bd5-d934-4bd6-b2c0-aac7486642ce")
-	)
 	(pad "" np_thru_hole circle
 		(at -5.08 0)
 		(size 1.75 1.75)
@@ -587,19 +580,19 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "96a37c52-771c-43e6-a535-c0bd3a941661")
 	)
-	(pad "" smd roundrect
-		(at 5.842 -5.08)
-		(size 2.55 2.5)
-		(layers "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1)
-		(uuid "7f57e1bc-8898-4fc3-bbd7-82b7f9c179d5")
+	(pad "1" smd roundrect
+		(at -6.997 -2.54 180)
+		(size 2.159 2.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1157943492)
+		(uuid "109552d4-3561-4874-939b-5d1401c6a11a")
 	)
 	(pad "1" smd roundrect
-		(at -6.585 -2.54)
+		(at -6.301 -2.54)
 		(size 3.55 2.5)
 		(layers "B.Cu")
 		(roundrect_rratio 0.1)
-		(uuid "3fc853f4-d43a-4623-8341-5ab775f6f28c")
+		(uuid "72d96d79-df0b-4e23-9d4d-c691d25ac7d4")
 	)
 	(pad "1" thru_hole circle
 		(at -3.81 -2.54)
@@ -618,11 +611,18 @@
 		(uuid "625b6238-082d-44cd-a0fc-117bda84bf6a")
 	)
 	(pad "2" smd roundrect
-		(at 5.32 -5.08)
+		(at 5.1 -5.08)
 		(size 3.55 2.5)
 		(layers "B.Cu")
 		(roundrect_rratio 0.1)
-		(uuid "9452e626-06f4-46ad-823e-796f541761c0")
+		(uuid "178c9631-cdeb-4120-b529-f0cbdd06e455")
+	)
+	(pad "2" smd roundrect
+		(at 5.796 -5.08 180)
+		(size 2.159 2.5)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(roundrect_rratio 0.1157943492)
+		(uuid "7f494fd2-c5a4-4422-b9e2-2a1d044b10ee")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_MX.wrl"
