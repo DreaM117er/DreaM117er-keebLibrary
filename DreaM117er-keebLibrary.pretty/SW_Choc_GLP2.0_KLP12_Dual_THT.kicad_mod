@@ -187,18 +187,6 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "ac30b50f-7e7d-46af-a76a-cd06147de3ac")
 	)
-	(pad "1" smd trapezoid
-		(at 3.5 5.225 210.3)
-		(size 2 1.2)
-		(layers "F.Cu")
-		(uuid "4e0f4821-cc3e-458f-ae4d-7d8f93c6c837")
-	)
-	(pad "1" smd trapezoid
-		(at 3.5 5.225 30.3)
-		(size 2 1.2)
-		(layers "B.Cu")
-		(uuid "c428513b-b074-4330-8cf9-cf4f7d8114c1")
-	)
 	(pad "1" thru_hole circle
 		(at 4.4 4.7)
 		(size 1.7 1.7)
@@ -241,17 +229,17 @@
 		(layers "B.Cu" "B.Mask")
 		(uuid "bbb5bd5f-ad69-4e50-b070-ba60a51ce1b1")
 	)
-	(pad "2" smd trapezoid
-		(at -3.5 5.225 329.7)
-		(size 2 1.2)
-		(layers "F.Cu")
-		(uuid "77b09733-6460-4250-94cd-9da3cd94c4fb")
-	)
-	(pad "2" smd trapezoid
+	(pad "2" smd rect
 		(at -3.5 5.225 149.7)
-		(size 2 1.2)
+		(size 2.084 1.2)
+		(layers "F.Cu")
+		(uuid "b6a01a90-3192-4b98-b623-cc884d22b5e9")
+	)
+	(pad "2" smd rect
+		(at -3.5 5.225 149.7)
+		(size 2.084 1.2)
 		(layers "B.Cu")
-		(uuid "8c14b998-297c-427d-b07c-67ee90480d1c")
+		(uuid "bc2c3b77-8b23-48d6-adc3-2669128e6f46")
 	)
 	(pad "2" thru_hole circle
 		(at -2.6 5.75)
@@ -274,6 +262,18 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "b77064ac-bd87-42c0-bf64-cf1eaad08bda")
+	)
+	(pad "2" smd rect
+		(at 3.5 5.225 210.3)
+		(size 2.084 1.2)
+		(layers "F.Cu")
+		(uuid "6cba6067-c05f-4da3-a8a6-2031b0549c0c")
+	)
+	(pad "2" smd rect
+		(at 3.5 5.225 210.3)
+		(size 2.084 1.2)
+		(layers "B.Cu")
+		(uuid "ec8b3b1d-4838-455e-92a1-ef57c83efc84")
 	)
 	(embedded_fonts no)
 )

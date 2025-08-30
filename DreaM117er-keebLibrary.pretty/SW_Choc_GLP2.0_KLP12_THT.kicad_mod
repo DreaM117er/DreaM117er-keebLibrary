@@ -177,28 +177,17 @@
 		(remove_unused_layers no)
 		(uuid "1d225c05-6cff-4efc-a5dc-6eca47b6b61e")
 	)
-	(pad "2" smd custom
+	(pad "2" smd rect
 		(at -1.3 -5.825 3.3)
-		(size 3 1.353)
+		(size 2.604 1.2)
 		(layers "F.Cu")
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "e60a5947-c17e-4efd-add1-af9ea8f3cfc9")
+		(uuid "fdd34eb0-925f-4639-aeba-9410d6c16f96")
 	)
-	(pad "2" smd custom
+	(pad "2" smd rect
 		(at -1.3 -5.825 3.3)
-		(size 3 1.353)
+		(size 2.604 1.2)
 		(layers "B.Cu")
-		(thermal_bridge_angle 45)
-		(options
-			(clearance outline)
-			(anchor rect)
-		)
-		(primitives)
-		(uuid "455f01a6-dba5-4678-ae7f-2d8363e30a0f")
+		(uuid "66e30f77-4606-4469-9b3f-20d4af32c316")
 	)
 	(pad "2" thru_hole circle
 		(at 0 -5.9)
