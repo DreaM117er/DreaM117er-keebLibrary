@@ -463,14 +463,14 @@
 	)
 	(pad "1" smd rect
 		(at 3.176 -3.81 296.6)
-		(size 2.84 1)
+		(size 2.84 1.2)
 		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "99b20cdf-61fb-4d27-9965-d0b8e6d6388e")
 	)
 	(pad "1" smd rect
 		(at 3.176 -3.81 296.6)
-		(size 2.84 1)
+		(size 2.84 1.2)
 		(layers "B.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "1cd964fb-16da-47b2-bdf3-ee7368093dc2")
@@ -519,14 +519,14 @@
 	)
 	(pad "2" smd rect
 		(at -3.176 -3.81 63.4)
-		(size 2.84 1)
+		(size 2.84 1.2)
 		(layers "F.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "b62ac1c5-5707-4c1d-a058-1d1d6d4410ab")
 	)
 	(pad "2" smd rect
 		(at -3.176 -3.81 63.4)
-		(size 2.84 1)
+		(size 2.84 1.2)
 		(layers "B.Cu")
 		(thermal_bridge_angle 45)
 		(uuid "82518d3d-4745-41d3-b601-46c52227e88a")
