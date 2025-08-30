@@ -461,20 +461,6 @@
 		(remove_unused_layers no)
 		(uuid "484f336a-59c5-4448-b67e-c610fb0d4cb0")
 	)
-	(pad "1" smd rect
-		(at 3.176 -3.81 296.6)
-		(size 2.84 1.2)
-		(layers "F.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "32c56eb5-0d3f-4a3b-b97f-583d37cd2492")
-	)
-	(pad "1" smd rect
-		(at 3.176 -3.81 296.6)
-		(size 2.84 1.2)
-		(layers "B.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "8173dbfe-a85f-4068-ae4d-ae9186573683")
-	)
 	(pad "1" thru_hole circle
 		(at 3.81 -2.54)
 		(size 2.1 2.1)
@@ -516,20 +502,6 @@
 		(size 2.4 2.4)
 		(layers "B.Cu" "B.Mask")
 		(uuid "f8c51018-2ec7-48f5-b725-e7aba89f19df")
-	)
-	(pad "2" smd rect
-		(at -3.176 -3.81 63.4)
-		(size 2.84 1.2)
-		(layers "F.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "f81d085d-7d04-4e9c-b7e9-d910ec302fa9")
-	)
-	(pad "2" smd rect
-		(at -3.176 -3.81 63.4)
-		(size 2.84 1.2)
-		(layers "B.Cu")
-		(thermal_bridge_angle 45)
-		(uuid "45020a6e-af33-4f89-bacc-9d9162e9f3df")
 	)
 	(pad "2" thru_hole circle
 		(at -2.540182 -5.079699)
