@@ -5,16 +5,15 @@
 	(layer "F.Cu")
 	(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 	(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-	(property "Reference" "K21"
+	(property "Reference" "REF**"
 		(at 0 -8 0)
-		(layer "B.Fab")
+		(layer "F.Fab")
 		(uuid "c46155e7-7d27-439e-b4ae-3fbf3ac14337")
 		(effects
 			(font
 				(size 1 1)
 				(thickness 0.15)
 			)
-			(justify mirror)
 		)
 	)
 	(property "Value" "Low Profile Mix"
@@ -473,18 +472,6 @@
 		(remove_unused_layers no)
 		(uuid "6116d8be-4228-475c-ae80-5934dc7cba2d")
 	)
-	(pad "1" smd trapezoid
-		(at -1.27 -5.49 17.9)
-		(size 2.669 1.2)
-		(layers "B.Cu")
-		(uuid "09e33249-aafc-4e3f-9e7e-95d3d21c14f9")
-	)
-	(pad "1" smd trapezoid
-		(at 1.27 -5.49 342.1)
-		(size 2.669 1.2)
-		(layers "F.Cu")
-		(uuid "b5d7ba37-c337-4a84-99a9-de2b50146a53")
-	)
 	(pad "1" thru_hole circle
 		(at 3.809639 -2.540423 223.4)
 		(size 1.7 1.7)
@@ -539,6 +526,12 @@
 		(layers "F.Cu" "F.Mask")
 		(uuid "10146dae-615b-4b5f-acb5-19d60e5bb2e6")
 	)
+	(pad "2" smd trapezoid
+		(at -1.27 -5.49 17.9)
+		(size 2.669 1.2)
+		(layers "B.Cu")
+		(uuid "09e33249-aafc-4e3f-9e7e-95d3d21c14f9")
+	)
 	(pad "2" thru_hole circle
 		(at 0 -5.9)
 		(size 2 2)
@@ -546,6 +539,12 @@
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "5edc2f57-8af3-45d2-8014-0f6868b3b4f2")
+	)
+	(pad "2" smd trapezoid
+		(at 1.27 -5.49 342.1)
+		(size 2.669 1.2)
+		(layers "F.Cu")
+		(uuid "b5d7ba37-c337-4a84-99a9-de2b50146a53")
 	)
 	(pad "2" smd circle
 		(at 2.54 -5.08 136.6)
