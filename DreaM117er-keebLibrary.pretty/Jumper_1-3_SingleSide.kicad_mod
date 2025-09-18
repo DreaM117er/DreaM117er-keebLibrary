@@ -74,6 +74,30 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy 0 -0.212132) (xy -0.212132 0) (xy -1.06066 -0.848528) (xy -0.848528 -1.06066)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "e65ddfdc-87bc-4f91-8394-28815b33f3db")
+	)
+	(fp_poly
+		(pts
+			(xy 0.212132 0) (xy 0 -0.212132) (xy 0.848528 -1.06066) (xy 1.06066 -0.848528)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "c40ae30a-b2e2-469d-8cfb-e0f0223babe9")
+	)
 	(fp_line
 		(start -1.8 -0.6)
 		(end -0.6 -1.8)

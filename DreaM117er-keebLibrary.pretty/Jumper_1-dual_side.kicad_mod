@@ -75,6 +75,28 @@
 		)
 	)
 	(attr smd)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "6b348186-615a-4a88-9ed7-2156dd76a815")
+	)
+	(fp_rect
+		(start -0.15 -0.75)
+		(end 0.15 0.75)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "B.Mask")
+		(uuid "f304d1be-26a4-47a4-93ad-14073876f656")
+	)
 	(fp_line
 		(start -1.45 -0.22)
 		(end -1.45 0.22)
