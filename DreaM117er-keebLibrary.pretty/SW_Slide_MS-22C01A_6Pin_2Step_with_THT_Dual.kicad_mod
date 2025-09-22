@@ -1,10 +1,10 @@
-(footprint "SW_Slide_MS-22C01A_6Pin_2Step"
+(footprint "SW_Slide_MS-22C01A_6Pin_2Step_with_THT_Dual"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -4.2 -0.02 90)
+		(at -4.2 0 90)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "5d3f524c-c1d5-40dc-9477-7cf993195e8f")
@@ -51,6 +51,18 @@
 				(size 1 1)
 				(thickness 0.15)
 			)
+		)
+	)
+	(property "REF" "${REFERENCE}"
+		(at -4.2 0 270)
+		(layer "B.SilkS")
+		(uuid "f552a41a-0ee1-42ad-a3a2-3b4927379f45")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
 		)
 	)
 	(attr smd)
@@ -166,11 +178,31 @@
 			)
 		)
 	)
+	(pad "" np_thru_hole circle
+		(at -2.25 0 90)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "459fcb30-14fe-4d7d-847e-67086ea3b558")
+	)
+	(pad "" np_thru_hole circle
+		(at 2.25 0 90)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "f1fda0a0-c6d0-44b8-a2f3-195653328eed")
+	)
 	(pad "1" smd trapezoid
 		(at -2 -2.55 90)
 		(size 1.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "b6337070-b635-43bd-a1c5-931a72385286")
+	)
+	(pad "1" smd trapezoid
+		(at -2 -2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "701a0d6e-00aa-43ba-bfbd-2987900efc00")
 	)
 	(pad "2" smd trapezoid
 		(at 0 -2.55 90)
@@ -178,11 +210,23 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "fae31449-9b35-4a05-a438-20a9046e4062")
 	)
+	(pad "2" smd trapezoid
+		(at 0 -2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "b9af21ea-91e9-4796-8855-60d3f3e99250")
+	)
 	(pad "3" smd trapezoid
 		(at 2 -2.55 90)
 		(size 1.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "102053eb-0582-4367-845d-0926c12e8734")
+	)
+	(pad "3" smd trapezoid
+		(at 2 -2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "554b78fa-e6fd-45bc-b484-4e33ea5a0062")
 	)
 	(pad "4" smd trapezoid
 		(at -2 2.55 90)
@@ -190,17 +234,35 @@
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "3cb399d8-4d11-49cb-bff6-b419db172d95")
 	)
+	(pad "4" smd trapezoid
+		(at -2 2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "0b0b94e5-94f5-4ecc-8d21-cc8eba8903d0")
+	)
 	(pad "5" smd trapezoid
 		(at 0 2.55 90)
 		(size 1.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "dc6b7812-b866-428e-a9c3-b4635454520d")
 	)
+	(pad "5" smd trapezoid
+		(at 0 2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "c81cd012-2232-4650-911a-f2e4d681646d")
+	)
 	(pad "6" smd trapezoid
 		(at 2 2.55 90)
 		(size 1.4 0.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "eeb150d6-f0c7-4217-9682-a7e74875716a")
+	)
+	(pad "6" smd trapezoid
+		(at 2 2.55 270)
+		(size 1.4 0.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "7b8ae903-f2bb-478f-b547-75a02204875a")
 	)
 	(embedded_fonts no)
 )

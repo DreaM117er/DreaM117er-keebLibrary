@@ -8836,11 +8836,59 @@
 					(type none)
 				)
 			)
+			(polyline
+				(pts
+					(xy -2.54 3.175) (xy 0 3.175)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy -2.54 -3.81) (xy 0 -3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 3.81) (xy 2.54 3.81)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(polyline
+				(pts
+					(xy 0 -4.445) (xy 2.54 -4.445)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
 		)
 		(symbol "SW_Slide_MS-22C01A_2D6P_1_1"
 			(pin passive line
-				(at -2.54 5.08 270)
-				(length 2.54)
+				(at -2.54 7.62 270)
+				(length 5.08)
 				(name "1"
 					(effects
 						(font
@@ -8857,8 +8905,8 @@
 				)
 			)
 			(pin passive line
-				(at -2.54 -5.715 90)
-				(length 2.54)
+				(at -2.54 -8.255 90)
+				(length 5.08)
 				(name "4"
 					(effects
 						(font
@@ -8875,8 +8923,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 5.08 270)
-				(length 2.54)
+				(at 0 7.62 270)
+				(length 5.08)
 				(name "Com"
 					(effects
 						(font
@@ -8893,8 +8941,8 @@
 				)
 			)
 			(pin passive line
-				(at 0 -5.715 90)
-				(length 2.54)
+				(at 0 -8.255 90)
+				(length 5.08)
 				(name ""
 					(effects
 						(font
@@ -8911,8 +8959,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 5.08 270)
-				(length 2.54)
+				(at 2.54 7.62 270)
+				(length 5.08)
 				(name "3"
 					(effects
 						(font
@@ -8929,8 +8977,8 @@
 				)
 			)
 			(pin passive line
-				(at 2.54 -5.715 90)
-				(length 2.54)
+				(at 2.54 -8.255 90)
+				(length 5.08)
 				(name "6"
 					(effects
 						(font
