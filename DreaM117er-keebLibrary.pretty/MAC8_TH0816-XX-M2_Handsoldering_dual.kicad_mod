@@ -1,4 +1,4 @@
-(footprint "MAC8_TH0816-XX-M2-Dual_Pad"
+(footprint "MAC8_TH0816-XX-M2_Handsoldering_dual"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -17,7 +17,7 @@
 			)
 		)
 	)
-	(property "Value" "MAC8_TH0816-XX-M2-Dual_Pad"
+	(property "Value" "MAC8_TH0816-XX-M2_Handsoldering_dual"
 		(at 0 3.35 0)
 		(layer "F.Fab")
 		(uuid "43b9889b-de9b-4d57-9f8b-d64e56edb999")
@@ -86,13 +86,29 @@
 			)
 		)
 	)
+	(pad "1" thru_hole oval
+		(at 0 0 90)
+		(size 4.7 1.5)
+		(drill oval 4.2 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "095d2666-21d0-40c0-96d9-cb8c3e1d8b64")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0)
+		(size 4.7 1.5)
+		(drill oval 4.2 1)
+		(layers "*.Cu")
+		(remove_unused_layers no)
+		(uuid "b934c834-ce90-4c27-9ed5-9f307e1702c8")
+	)
 	(pad "1" thru_hole circle
 		(at 0 0)
-		(size 5 5)
-		(drill 2.7)
+		(size 4.7 4.7)
+		(drill 2.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "7ff21f1f-8e6e-4574-8fd4-d28a82947f78")
+		(uuid "40bd6fd7-cff4-4ffc-b00b-101888f50b64")
 	)
 	(embedded_fonts no)
 )
