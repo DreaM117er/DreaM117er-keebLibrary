@@ -73,7 +73,7 @@
 			)
 		)
 	)
-	(attr smd)
+	(attr exclude_from_pos_files exclude_from_bom)
 	(fp_poly
 		(pts
 			(xy 0 -0.212132) (xy -0.212132 0) (xy -1.06066 -0.848528) (xy -0.848528 -1.06066)
