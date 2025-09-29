@@ -74,7 +74,8 @@
 			)
 		)
 	)
-	(attr exclude_from_pos_files exclude_from_bom)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
 	(fp_rect
 		(start 0.5 -0.75)
 		(end 0.8 0.75)
