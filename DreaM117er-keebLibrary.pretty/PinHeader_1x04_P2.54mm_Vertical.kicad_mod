@@ -3,7 +3,6 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "Through hole straight pin header, 1x04, 2.54mm pitch, single row")
 	(tags "Through hole pin header THT 1x04 2.54mm single row")
 	(property "Reference" "REF**"
 		(at 2.2 0 90)
@@ -39,14 +38,28 @@
 			)
 		)
 	)
-	(property "Description" "N/A"
+	(property "Description" "Function"
 		(at 0 -2.2 90)
-		(layer "F.SilkS")
+		(layer "F.Fab")
+		(hide yes)
 		(uuid "1d1af7d4-9f86-4d9b-a1c7-c9385b3177ce")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.2)
+			)
+			(justify left)
+		)
+	)
+	(property "Function" "Function"
+		(at 0 -2.2 90)
+		(layer "F.SilkS" knockout)
+		(uuid "e655483b-296e-4a24-88fb-ea0ea3d37cd1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left)
 		)
