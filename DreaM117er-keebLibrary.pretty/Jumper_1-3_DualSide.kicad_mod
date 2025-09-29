@@ -319,7 +319,7 @@
 	(pad "1" smd roundrect
 		(at -1.06066 0 225)
 		(size 1.2 1.2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_right)
@@ -329,7 +329,7 @@
 	(pad "2" smd roundrect
 		(at 0 -1.06066 315)
 		(size 1.2 1.2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left)
@@ -339,7 +339,7 @@
 	(pad "2" smd roundrect
 		(at 0 -1.06066 45)
 		(size 1.2 1.2)
-		(layers "B.Cu" "B.Mask" "B.Paste")
+		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_right)
@@ -349,7 +349,7 @@
 	(pad "3" smd roundrect
 		(at 1.06066 0 135)
 		(size 1.2 1.2)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(roundrect_rratio 0)
 		(chamfer_ratio 0.3)
 		(chamfer top_left)
