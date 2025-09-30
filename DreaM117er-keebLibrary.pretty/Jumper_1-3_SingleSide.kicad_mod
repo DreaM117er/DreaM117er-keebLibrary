@@ -4,7 +4,7 @@
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2 -2 45)
+		(at -1.7 -1.7 45)
 		(layer "F.SilkS")
 		(uuid "30d5d5e3-6365-4aa1-8698-f65f38a41f86")
 		(effects
@@ -14,15 +14,17 @@
 			)
 		)
 	)
-	(property "Value" "REF**"
-		(at 0 2.9 180)
-		(layer "F.Fab")
+	(property "Value" "${VALUE}"
+		(at 0 1 270)
+		(layer "F.SilkS" knockout)
 		(uuid "31b670d2-c815-40b8-93c1-3d9eabe8f280")
 		(effects
 			(font
-				(size 1 1)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.16)
+				(bold yes)
 			)
+			(justify right)
 		)
 	)
 	(property "Datasheet" ""
@@ -32,45 +34,57 @@
 		(uuid "da1c7e0e-423a-40cc-a9fc-9cd11683fc59")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Description" "100V 0.15A standard switching diode, DO-35"
+	(property "Description" "1-2 jumper, solder to link"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
 		(uuid "ee605991-8e70-4b0c-b4f3-ffd828a8ef9d")
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1 1)
 				(thickness 0.15)
 			)
 		)
 	)
-	(property "Sim.Device" "D"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "617439eb-38fe-4ca1-ba35-a80e3b81fc1c")
+	(property "PAD1_TEXT" "${PAD1_TEXT}"
+		(at -1.7 1.45 0)
+		(layer "F.SilkS")
+		(uuid "2ecdd789-f44a-46fb-ba8d-73f6b5e81e40")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
+			(justify right)
 		)
 	)
-	(property "Sim.Pins" "1=K 2=A"
-		(at 0 0 0)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "6fe976c9-dc2b-4bc2-a84c-01bcea93094b")
+	(property "PAD2_TEXT" "${VALUE}"
+		(at 0 -2 90)
+		(layer "F.SilkS")
+		(uuid "0abaa85b-bc6f-40de-ba8c-c26388ac55b4")
 		(effects
 			(font
-				(size 1.27 1.27)
-				(thickness 0.15)
+				(size 0.8 0.8)
+				(thickness 0.12)
 			)
+			(justify left)
+		)
+	)
+	(property "PAD3_TEXT" "${PAD3_TEXT}"
+		(at 1.7 1.45 0)
+		(layer "F.SilkS")
+		(uuid "eeacd509-cf06-4f44-ab9d-14625268b7aa")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
 		)
 	)
 	(zone_connect 1)
@@ -239,43 +253,8 @@
 		(layer "F.CrtYd")
 		(uuid "56a518fe-e814-4c85-8a25-ab18cdbc6da7")
 	)
-	(fp_text user "1"
-		(at -1.7 1.45 0)
-		(layer "F.SilkS")
-		(uuid "4beb7027-3fd8-4f92-adb6-54ee661e23af")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify right)
-		)
-	)
-	(fp_text user "2"
-		(at 0 -2.7 0)
-		(layer "F.SilkS")
-		(uuid "7d339834-026c-4498-8436-3a886a25b6a6")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(fp_text user "3"
-		(at 1.7 1.45 0)
-		(layer "F.SilkS")
-		(uuid "7dbd700d-e582-45c7-9b71-0caf8b8d5c58")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify left)
-		)
-	)
 	(fp_text user "${REFERENCE}"
-		(at 0 4.2 180)
+		(at 0 2.6 180)
 		(layer "F.Fab")
 		(uuid "6f296f7e-4218-47d1-aacf-49dea7c2182e")
 		(effects

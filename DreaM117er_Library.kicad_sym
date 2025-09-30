@@ -2518,19 +2518,21 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "JP"
-			(at 0 4.445 0)
+			(at -5.842 2.032 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
-		(property "Value" ""
-			(at 1.27 0 0)
+		(property "Value" "${VALUE}"
+			(at -5.588 -2.286 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
@@ -2558,6 +2560,22 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "PAD1_TEXT" "1"
+			(at 5.08 4.064 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PAD3_TEXT" "3"
+			(at 5.08 -3.302 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(symbol "Jumper_1-pad2-3_0_1"
