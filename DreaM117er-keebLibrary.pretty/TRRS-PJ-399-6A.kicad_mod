@@ -17,7 +17,7 @@
 		)
 	)
 	(property "Value" "TRRS"
-		(at 0 12.8 0)
+		(at 0 13.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "8dfb6e39-8265-4c79-a59e-479f6bf89baf")
@@ -57,7 +57,7 @@
 	(attr smd)
 	(fp_line
 		(start -2.9 0)
-		(end -2.9 11.8)
+		(end -2.9 12.55)
 		(stroke
 			(width 0.1)
 			(type default)
@@ -76,8 +76,8 @@
 		(uuid "89b176cd-52c8-4b4d-9d11-f114c8107ff6")
 	)
 	(fp_line
-		(start -2.9 11.8)
-		(end 2.9 11.8)
+		(start -2.9 12.55)
+		(end 2.9 12.55)
 		(stroke
 			(width 0.1)
 			(type solid)
@@ -117,13 +117,53 @@
 	)
 	(fp_line
 		(start 2.9 0)
-		(end 2.9 11.8)
+		(end 2.9 12.55)
 		(stroke
 			(width 0.1)
 			(type default)
 		)
 		(layer "Dwgs.User")
 		(uuid "4951102d-54e3-487c-a03a-47b7d5c1cec1")
+	)
+	(fp_line
+		(start -3.05 0)
+		(end -3.05 12.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "99d7d999-a631-467b-bae5-10e1d2302f1c")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end -3.05 0)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(layer "B.CrtYd")
+		(uuid "fde0e518-a8a1-4937-8863-9804b4dd141b")
+	)
+	(fp_line
+		(start 3.05 0)
+		(end 3.05 12.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "073dec3e-ae95-4be8-883b-cfb8df863cdb")
+	)
+	(fp_line
+		(start 3.05 12.7)
+		(end -3.05 12.7)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "B.CrtYd")
+		(uuid "5254d721-0549-4045-83bc-7a7e470eef4e")
 	)
 	(fp_line
 		(start -3.05 0)
@@ -166,7 +206,7 @@
 		(uuid "1977ff7e-2a45-4f09-83ac-d89c4cee5f34")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 14.3 0)
+		(at 0 15.3 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(uuid "6d159bc3-9d8d-4443-b60b-044c52bf15ba")
