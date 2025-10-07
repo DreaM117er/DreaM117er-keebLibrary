@@ -135,6 +135,17 @@
 		(layer "Eco1.User")
 		(uuid "73ea483d-b1c2-4f61-a7a6-edc1d02301ee")
 	)
+	(fp_circle
+		(center 0 0)
+		(end 2.2 0)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3f8e5c0e-cd91-4d12-9893-78aa3944cc5e")
+	)
 	(fp_text user "${REFERENCE}"
 		(at 0 3 0)
 		(layer "F.Fab")
