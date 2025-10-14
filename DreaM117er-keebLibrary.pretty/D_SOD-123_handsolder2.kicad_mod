@@ -1,4 +1,4 @@
-(footprint "D_SOD-123_handsolder"
+(footprint "D_SOD-123_handsolder2"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "D_SOD-123_handsolder"
+	(property "Value" "D_SOD-123_handsolder2"
 		(at 0 2.1 0)
 		(layer "F.Fab")
 		(uuid "4551abc5-851e-4a58-835a-eb5d7c377745")
@@ -53,8 +53,8 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -2.7 -0.75)
-		(end -2.7 0.75)
+		(start -3.4 -0.75)
+		(end -3.4 0.75)
 		(stroke
 			(width 0.15)
 			(type solid)
@@ -63,7 +63,7 @@
 		(uuid "1e0773ac-e777-4217-a5f8-02c08e0974e3")
 	)
 	(fp_line
-		(start -2.7 0.75)
+		(start -3.4 0.75)
 		(end 2.7 0.75)
 		(stroke
 			(width 0.15)
@@ -71,6 +71,76 @@
 		)
 		(layer "F.SilkS")
 		(uuid "f0ed4c22-70fa-411c-b047-b999c5750a01")
+	)
+	(fp_line
+		(start -3.3 -0.75)
+		(end -3.3 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "e982d928-2b35-45e0-b11c-cd8ea94e46c8")
+	)
+	(fp_line
+		(start -3.2 -0.75)
+		(end -3.2 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0377ada-7cf1-4650-85e8-8c3bafbac39a")
+	)
+	(fp_line
+		(start -3.1 -0.75)
+		(end -3.1 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1de29ad6-cd97-4052-8b2c-77f157e7d28b")
+	)
+	(fp_line
+		(start -3 -0.75)
+		(end -3 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5ef529d-4a47-4b0c-a726-d0251b166247")
+	)
+	(fp_line
+		(start -2.9 -0.75)
+		(end -2.9 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "103def6a-84b3-4bbe-8916-15d69408fc5f")
+	)
+	(fp_line
+		(start -2.8 -0.75)
+		(end -2.8 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "ebf2148d-ff74-4f7d-8d05-4ec7664803dc")
+	)
+	(fp_line
+		(start -2.7 -0.75)
+		(end -2.7 0.75)
+		(stroke
+			(width 0.15)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f257ffdb-e480-4bab-9d98-a3a2abddc299")
 	)
 	(fp_line
 		(start -0.5 -0.5)
@@ -114,7 +184,7 @@
 	)
 	(fp_line
 		(start 2.7 -0.75)
-		(end -2.7 -0.75)
+		(end -3.4 -0.75)
 		(stroke
 			(width 0.15)
 			(type solid)
