@@ -2371,46 +2371,40 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "41d3023b-b3f6-49a8-ae84-7fb794196d38")
 	)
-	(pad "1" smd roundrect
-		(at -8.376 3.8 180)
+	(pad "1" smd trapezoid
+		(at -8.171 3.8 180)
 		(size 2.159 2.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "a9914279-9358-4ce2-9c47-569b253df864")
 	)
-	(pad "1" smd roundrect
-		(at -7.53 3.8 180)
+	(pad "1" smd trapezoid
+		(at -7.325 3.8 180)
 		(size 3.85 2.5)
 		(layers "B.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "008cba6b-920e-4999-8d56-36f355603f1e")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd trapezoid
 		(at -6.997 -2.54 180)
 		(size 2.159 2.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "6d6e1b3c-e30f-4420-ae40-1990de3f4919")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd trapezoid
 		(at -6.301 -2.54)
 		(size 3.55 2.5)
 		(layers "B.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "ba43b549-3e14-4de4-90ab-b527b89f2d08")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd trapezoid
 		(at -5.796 -5.08 180)
 		(size 2.159 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "5ce19d0f-4b8d-4ece-84f9-9f41ceb0e144")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd trapezoid
 		(at -5.1 -5.08)
 		(size 3.55 2.5)
 		(layers "F.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "e4f7bbc3-1ede-4ca0-a9a4-535baac24f61")
 	)
 	(pad "1" thru_hole circle
@@ -2429,11 +2423,10 @@
 		(remove_unused_layers no)
 		(uuid "b43df0e1-0a38-40de-b831-7be19c81634a")
 	)
-	(pad "1" smd roundrect
+	(pad "1" smd trapezoid
 		(at -3.381 6 180)
 		(size 2.159 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "0e220584-fc0d-4c5e-8913-fa10cf772609")
 	)
 	(pad "1" thru_hole circle
@@ -2452,11 +2445,10 @@
 		(remove_unused_layers no)
 		(uuid "ef4b710c-8a98-4f9f-bc37-b65f9431bfab")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd trapezoid
 		(at 3.381 6 180)
 		(size 2.159 2.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "079c6ea8-e54d-4bac-8c7b-867a637a403d")
 	)
 	(pad "2" thru_hole circle
@@ -2475,46 +2467,40 @@
 		(remove_unused_layers no)
 		(uuid "f982b655-b0fd-4d05-b179-9dd258af2f08")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd trapezoid
 		(at 5.1 -5.08)
 		(size 3.55 2.5)
 		(layers "B.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "6d919ca2-2527-4698-8843-603d1176420c")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd trapezoid
 		(at 5.796 -5.08 180)
 		(size 2.159 2.5)
 		(layers "B.Cu" "B.Mask" "B.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "8916f8a9-961c-4c3a-80a4-6b29f6e83fc1")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd trapezoid
 		(at 6.301 -2.54)
 		(size 3.55 2.5)
 		(layers "F.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "11ee1d8a-fab3-4ecb-9a89-af089f8a85f6")
 	)
-	(pad "2" smd roundrect
+	(pad "2" smd trapezoid
 		(at 6.997 -2.54 180)
 		(size 2.159 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "a5a81e7f-ea61-4732-a2be-5c5d97fd1f9e")
 	)
-	(pad "2" smd roundrect
-		(at 7.53 3.8 180)
+	(pad "2" smd trapezoid
+		(at 7.325 3.8 180)
 		(size 3.85 2.5)
 		(layers "F.Cu")
-		(roundrect_rratio 0.1)
 		(uuid "f066531b-8d5b-487a-9791-91fcf184cf8e")
 	)
-	(pad "2" smd roundrect
-		(at 8.376 3.8 180)
+	(pad "2" smd trapezoid
+		(at 8.171 3.8 180)
 		(size 2.159 2.5)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(roundrect_rratio 0.1157943492)
 		(uuid "7de3b740-93c5-46d8-8ac8-176946316dce")
 	)
 	(embedded_fonts no)
