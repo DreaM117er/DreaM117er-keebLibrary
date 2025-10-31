@@ -1,0 +1,97 @@
+(footprint "Breakaway_Tabs_2"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "H14"
+		(at -0.05 -2.4 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "760c1687-d082-42ea-a664-7390bc6c51b8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "edge"
+		(at 0 1.5 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b36fb91-6455-4e60-88a0-12905dc99fa3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "069bfd2b-5101-43ba-a831-77a40d8c0353")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Mounting Hole without connection"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "488023a8-b7f1-4c24-be2a-68c0283c29ad")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -1.2 -0.2)
+		(end 1.2 -0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dfb3ddc2-871d-4982-b148-b8c1de14507b")
+	)
+	(fp_line
+		(start -1.2 0.2)
+		(end 1.2 0.2)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "5f13e419-fcff-4ee1-9b59-5fdd02026f48")
+	)
+	(pad "" np_thru_hole circle
+		(at -0.8 0 180)
+		(size 0.45 0.45)
+		(drill 0.45)
+		(layers "*.Cu" "*.Mask")
+		(uuid "82504b00-7373-4463-a02e-c231e6091fcb")
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0 180)
+		(size 0.45 0.45)
+		(drill 0.45)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "b40b1d01-9d24-492f-823f-f4abfc4c80e2")
+	)
+	(pad "" np_thru_hole circle
+		(at 0.8 0 180)
+		(size 0.45 0.45)
+		(drill 0.45)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "2e2c84ca-0f3b-4766-a2d8-2941e80313bb")
+	)
+	(embedded_fonts no)
+)
