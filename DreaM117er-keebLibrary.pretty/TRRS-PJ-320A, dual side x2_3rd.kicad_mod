@@ -1,13 +1,13 @@
-(footprint "TRRS-PJ-320A, dual side x2"
+(footprint "TRRS-PJ-320A, dual side x2_3rd"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
-		(at 0 -1.4 180)
+	(property "Reference" "J9"
+		(at 0 -1.4 0)
 		(layer "Dwgs.User")
 		(hide yes)
-		(uuid "c1c6de1d-415f-4431-86c8-728d76f23a1a")
+		(uuid "6742d993-8346-4be0-84ea-cdb29a4eddcd")
 		(effects
 			(font
 				(size 1 1)
@@ -16,10 +16,10 @@
 		)
 	)
 	(property "Value" "AudioJack4"
-		(at 0 -3.4 180)
+		(at 0 -3.4 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b3b75abf-7fac-4559-a800-8fc6bb9f1efe")
+		(uuid "d3e77386-a866-49d9-988a-92c32df31ac0")
 		(effects
 			(font
 				(size 1 1)
@@ -27,11 +27,11 @@
 			)
 		)
 	)
-	(property "Datasheet" ""
+	(property "Datasheet" "~"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "9fc6b10a-9a0c-49cb-9f3b-ea80fd1630e4")
+		(uuid "495e0d62-374f-4bad-afc2-5e5df3aacf38")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -39,16 +39,42 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Audio Jack, 4 Poles (TRRS)"
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d78568c0-bb76-4a6f-86a0-0b175f059619")
+		(uuid "1e0b0fed-5c24-4eec-bf9d-fab478b06c0c")
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.15)
 			)
+		)
+	)
+	(property "Text2" "TX"
+		(at 0 3.152 0)
+		(layer "F.SilkS" knockout)
+		(uuid "73ef50d3-8848-4ccd-b033-054e84004bc1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Text1" "TX"
+		(at 0 3.152 0)
+		(layer "B.SilkS" knockout)
+		(uuid "fdf35467-8f09-4886-997d-8683db7d0667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left mirror)
 		)
 	)
 	(attr through_hole)
@@ -60,7 +86,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "309db8f7-eb04-4274-9fe9-8544e8826f15")
+		(uuid "a7bec650-7ed0-4f3c-a515-2de13c5b0439")
 	)
 	(fp_line
 		(start -2.3782 0)
@@ -70,7 +96,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8ea23bdb-1d15-426d-8f32-f03220c44f24")
+		(uuid "3b47c138-6182-4474-a829-4dcacde366bf")
 	)
 	(fp_line
 		(start -2.3782 8.638)
@@ -80,7 +106,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "309db8f7-eb04-4274-9fe9-8544e8826f15")
+		(uuid "36440898-a570-49be-b468-f4d82793fb88")
 	)
 	(fp_line
 		(start 4.3782 0)
@@ -90,7 +116,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "f4ee116e-12c5-493e-9db5-b7fc21923d26")
+		(uuid "ea8441d4-8212-4252-bcdc-440722199c73")
 	)
 	(fp_line
 		(start 4.3782 12.573)
@@ -100,7 +126,7 @@
 			(type solid)
 		)
 		(layer "F.SilkS")
-		(uuid "c4df2ba7-a5f5-4b38-a17a-72fba6a04726")
+		(uuid "ab181263-8030-413a-a6bd-5cabdf966b07")
 	)
 	(fp_line
 		(start -4.3782 0)
@@ -110,7 +136,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "3d8e77a1-b1e9-4982-b0c3-6f9ae3e35916")
+		(uuid "b52b842b-2c09-4ab7-a5ac-0576d1a92235")
 	)
 	(fp_line
 		(start -4.3782 12.573)
@@ -120,7 +146,7 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "882f8099-3e40-4cc2-80c6-02ad5be6ed91")
+		(uuid "1cdb1420-ce31-4e8e-8225-e0942e499de7")
 	)
 	(fp_line
 		(start 2.3782 0)
@@ -130,7 +156,7 @@
 			(type default)
 		)
 		(layer "B.SilkS")
-		(uuid "689d77cf-fdc0-4805-ba76-fe30ed6f0a4d")
+		(uuid "c503cde0-1978-4cd3-9a7d-6bead96398ed")
 	)
 	(fp_line
 		(start 2.3782 0)
@@ -140,35 +166,62 @@
 			(type solid)
 		)
 		(layer "B.SilkS")
-		(uuid "9dc8f525-29ff-48f8-a546-fb9eaeb04d29")
+		(uuid "d36adaf8-fc14-4148-936b-9dda7946eb79")
+	)
+	(fp_text user "TRRS"
+		(at 5.4 6.773 270)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
+		(uuid "b643267a-d66e-4cf6-a9cb-81c437563fed")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(fp_text user "TRRS"
+		(at -5.4 6.773 90)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "3f50c294-ac82-4bac-b934-f52b95da4ac6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
 	)
 	(pad "" np_thru_hole circle
 		(at -1 1.6)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "8066860d-c348-4ccc-a23e-709d014a03c8")
+		(layers "*.Cu" "*.Mask")
+		(uuid "e8d71e04-59c4-42dc-88be-38177b9182c6")
 	)
 	(pad "" np_thru_hole circle
 		(at -1 8.6)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "612ec7c3-f6be-4063-98aa-7a0269f4d9f9")
+		(layers "*.Cu" "*.Mask")
+		(uuid "8d1e85f9-6c42-4f06-ba5c-1d727cb917f8")
 	)
 	(pad "" np_thru_hole circle
 		(at 1 1.6)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "7b892bd7-beb4-4a08-bc50-3316dbfe5e79")
+		(layers "*.Cu" "*.Mask")
+		(uuid "144900a3-e06c-4f32-b096-434c16f798e0")
 	)
 	(pad "" np_thru_hole circle
 		(at 1 8.6)
 		(size 0.8 0.8)
 		(drill 0.8)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "7dfd1d53-34ba-4c86-806f-7d178a4149dd")
+		(layers "*.Cu" "*.Mask")
+		(uuid "5f99fcd0-0c66-4f0f-8a42-eca9d0147d04")
 	)
 	(pad "R1" thru_hole oval
 		(at -3.3 6.2)
@@ -187,7 +240,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "b654057d-a295-4bf9-a885-48a8d7d35c2e")
+		(uuid "f86fd7ac-09c5-44f1-8f9e-274bfd6d37c5")
 	)
 	(pad "R1" thru_hole oval
 		(at 3.3 6.2)
@@ -206,7 +259,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "38ba1244-bcae-47be-a805-681ef5169f77")
+		(uuid "8e7d0e75-d15f-4b74-9cbc-f487c696fd40")
 	)
 	(pad "R2" thru_hole oval
 		(at -3.3 3.152)
@@ -225,7 +278,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "55659baa-9bd3-4be2-a08e-f8f0bc3ea061")
+		(uuid "7478f1b2-dd79-480c-afae-aae36de45a5f")
 	)
 	(pad "R2" thru_hole oval
 		(at 3.3 3.152)
@@ -244,7 +297,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "78d3cfd0-c27c-4359-baf5-93a009ed5b36")
+		(uuid "73ac52cb-2efe-4f27-b3b4-f5b544876194")
 	)
 	(pad "S" thru_hole oval
 		(at -1.3 11.3)
@@ -252,18 +305,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "B.Mask")
 		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "99f317f5-a663-4a0c-b1b6-4d4140749644")
+		(uuid "af057309-7a92-4724-93a4-f4dc7bf0c20b")
 	)
 	(pad "S" thru_hole oval
 		(at 1.3 11.3)
@@ -271,18 +313,7 @@
 		(drill oval 0.9 1.3)
 		(layers "*.Cu" "F.Mask")
 		(remove_unused_layers no)
-		(teardrops
-			(best_length_ratio 0.5)
-			(max_length 1)
-			(best_width_ratio 1)
-			(max_width 2)
-			(curved_edges no)
-			(filter_ratio 0.9)
-			(enabled yes)
-			(allow_two_segments yes)
-			(prefer_zone_connections yes)
-		)
-		(uuid "35917dc8-fcdf-4f6c-a5e7-eaecab1a4d33")
+		(uuid "2de030a2-130c-4060-a362-06905d3718d0")
 	)
 	(pad "T" thru_hole oval
 		(at -3.3 10.2)
@@ -301,7 +332,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "0520c757-5090-4d16-81b7-323388dcb947")
+		(uuid "70c387c8-6249-4e1c-a0a4-de479693f2f6")
 	)
 	(pad "T" thru_hole oval
 		(at 3.3 10.2)
@@ -320,7 +351,7 @@
 			(allow_two_segments yes)
 			(prefer_zone_connections yes)
 		)
-		(uuid "76e87de8-e1b8-434a-8839-b9c816a6cd72")
+		(uuid "e4a0eb7c-6f94-4062-a7e6-bcf98f824c16")
 	)
 	(embedded_fonts no)
 	(model "/Users/danny/syncproj/kicad-libs/footprints/Keebio-Parts.pretty/3dmodels/PJ-320A.step"
