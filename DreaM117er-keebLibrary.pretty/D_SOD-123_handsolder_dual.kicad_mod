@@ -7,7 +7,8 @@
 	(tags "SOD-123")
 	(property "Reference" "REF**"
 		(at 0 -1.5 0)
-		(layer "F.Fab")
+		(layer "F.SilkS")
+		(hide yes)
 		(uuid "07c07660-6967-4f4f-b651-22beb1b5ab6d")
 		(effects
 			(font
@@ -49,6 +50,19 @@
 				(size 1.27 1.27)
 				(thickness 0.15)
 			)
+		)
+	)
+	(property "REF" "${REFERENCE}"
+		(at 0 -1.5 0)
+		(layer "B.SilkS")
+		(hide yes)
+		(uuid "03231083-75ee-4ee8-90ab-9b1c71a90d47")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify mirror)
 		)
 	)
 	(attr smd)

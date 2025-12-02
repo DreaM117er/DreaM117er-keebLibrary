@@ -343,7 +343,7 @@
 		(uuid "c6973a9e-14c0-4f48-9fb8-489ecd7ec142")
 	)
 	(fp_text user "${REFERENCE}"
-		(at 0 1.5 180)
+		(at 0 -1.5 180)
 		(layer "B.SilkS")
 		(uuid "53fcf0d0-0947-4126-bf6c-8366c621f4c3")
 		(effects
