@@ -64,7 +64,7 @@
 			)
 		)
 	)
-	(pad "" thru_hole oval
+	(pad "1" thru_hole oval
 		(at 0 0)
 		(size 5.5 2.7)
 		(drill oval 5 2.2)
