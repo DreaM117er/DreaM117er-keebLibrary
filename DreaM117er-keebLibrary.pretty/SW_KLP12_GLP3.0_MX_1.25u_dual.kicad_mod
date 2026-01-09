@@ -74,16 +74,6 @@
 		(uuid "c4b2148e-fd1d-457e-b57d-2946365199c2")
 	)
 	(fp_line
-		(start 11.90625 -28.575)
-		(end -11.90625 -28.575)
-		(stroke
-			(width 0.1)
-			(type solid)
-		)
-		(layer "Dwgs.User")
-		(uuid "2f01bac7-914d-40d3-a838-1fad133b165c")
-	)
-	(fp_line
 		(start 11.90625 -9.525)
 		(end -11.90625 -9.525)
 		(stroke
@@ -412,7 +402,7 @@
 		(at 0 0 180)
 		(size 5.1 5.1)
 		(drill 5.1)
-		(layers "F&B.Cu" "*.Mask")
+		(layers "*.Cu" "*.Mask")
 		(uuid "6549e686-cc70-41aa-9e81-a186b3638463")
 	)
 	(pad "" np_thru_hole circle

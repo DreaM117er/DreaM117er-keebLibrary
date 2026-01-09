@@ -1,4 +1,4 @@
-(footprint "MountingHole_FFC_0.5mm_6pin"
+(footprint "MountingHole_FFC_0.5mm_6pin_GND"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -106,11 +106,12 @@
 			)
 		)
 	)
-	(pad "" np_thru_hole oval
+	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 7.8 1.5)
+		(size 8.4 2)
 		(drill oval 7.8 1.5)
-		(layers "*.Cu" "*.Mask")
+		(layers "*.Cu")
+		(remove_unused_layers no)
 		(uuid "d4d4a528-e6a7-4e05-a81e-c10290ed7479")
 	)
 	(embedded_fonts no)

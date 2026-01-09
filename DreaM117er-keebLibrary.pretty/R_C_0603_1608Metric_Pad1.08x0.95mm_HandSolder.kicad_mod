@@ -51,18 +51,6 @@
 			)
 		)
 	)
-	(property "REF" "${REFERENCE}"
-		(at 0 -1.33 0)
-		(layer "B.SilkS")
-		(uuid "656c2595-c89c-4615-ae4b-7ead686cf4b8")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
 	(attr smd)
 	(fp_line
 		(start -0.146267 -0.51)

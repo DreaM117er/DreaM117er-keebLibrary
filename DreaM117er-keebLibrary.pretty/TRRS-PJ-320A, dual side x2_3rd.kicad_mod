@@ -52,7 +52,7 @@
 		)
 	)
 	(property "Text2" "TX"
-		(at 0 3.152 0)
+		(at 0 6.2 0)
 		(layer "F.SilkS" knockout)
 		(uuid "73ef50d3-8848-4ccd-b033-054e84004bc1")
 		(effects
@@ -65,9 +65,35 @@
 		)
 	)
 	(property "Text1" "TX"
-		(at 0 3.152 0)
+		(at 0 6.2 0)
 		(layer "B.SilkS" knockout)
 		(uuid "fdf35467-8f09-4886-997d-8683db7d0667")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "Text3" "RX"
+		(at -0.1 3.152 0)
+		(layer "F.SilkS" knockout)
+		(uuid "cec6ae0b-4817-4b89-b3b4-c230cbb1ffc2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify left)
+		)
+	)
+	(property "Text4" "RX"
+		(at 0.1 3.152 0)
+		(layer "B.SilkS" knockout)
+		(uuid "2b7c6c8b-5bf4-42b9-9048-4c672c73e994")
 		(effects
 			(font
 				(size 1 1)
