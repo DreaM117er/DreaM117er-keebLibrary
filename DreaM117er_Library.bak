@@ -1389,8 +1389,8 @@
 		)
 		(symbol "DS_1N4148_SMD_1_1"
 			(pin passive line
-				(at -3.81 0 0)
-				(length 2.54)
+				(at -3.175 0 0)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
@@ -1407,8 +1407,8 @@
 				)
 			)
 			(pin passive line
-				(at 3.175 0 180)
-				(length 2.54)
+				(at 2.54 0 180)
+				(length 1.905)
 				(name ""
 					(effects
 						(font
@@ -8467,8 +8467,8 @@
 		)
 		(symbol "RotaryEncoder_EC-11_1_1"
 			(pin input line
-				(at -9.525 2.54 0)
-				(length 3.81)
+				(at -10.16 2.54 0)
+				(length 4.445)
 				(name "CLK"
 					(effects
 						(font
@@ -8485,8 +8485,8 @@
 				)
 			)
 			(pin input line
-				(at -9.525 0 0)
-				(length 3.81)
+				(at -10.16 0 0)
+				(length 4.445)
 				(name "GND"
 					(effects
 						(font
@@ -8503,8 +8503,8 @@
 				)
 			)
 			(pin input line
-				(at -9.525 -2.54 0)
-				(length 3.81)
+				(at -10.16 -2.54 0)
+				(length 4.445)
 				(name "DT"
 					(effects
 						(font
@@ -8521,8 +8521,8 @@
 				)
 			)
 			(pin input line
-				(at 9.525 1.905 180)
-				(length 3.81)
+				(at 10.16 2.54 180)
+				(length 4.445)
 				(name "SW"
 					(effects
 						(font
@@ -8539,8 +8539,8 @@
 				)
 			)
 			(pin input line
-				(at 9.525 -1.905 180)
-				(length 3.81)
+				(at 10.16 -2.54 180)
+				(length 4.445)
 				(name "GND"
 					(effects
 						(font
@@ -9028,7 +9028,7 @@
 			)
 		)
 		(property "Value" "TRRS"
-			(at 0 0 0)
+			(at 0 -8.382 0)
 			(effects
 				(font
 					(size 1.27 1.27)
