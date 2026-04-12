@@ -267,7 +267,7 @@
 	(pad "" smd rect
 		(at -0.530264 -0.530396 315)
 		(size 0.6 0.5)
-		(layers "F.Cu" "F.Mask" "F.Paste")
+		(layers "F.Cu" "F.Mask")
 		(thermal_bridge_angle 45)
 		(uuid "34b98125-7d3d-45c9-91d8-fa5468b4505c")
 	)

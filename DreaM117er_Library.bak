@@ -1389,8 +1389,8 @@
 		)
 		(symbol "DS_1N4148_SMD_1_1"
 			(pin passive line
-				(at -3.175 0 0)
-				(length 1.905)
+				(at -3.81 0 0)
+				(length 2.54)
 				(name ""
 					(effects
 						(font

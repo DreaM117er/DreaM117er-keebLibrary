@@ -2654,8 +2654,8 @@
 		)
 		(symbol "Jumper_1-pad2-3_1_1"
 			(pin input line
-				(at -5.715 0 0)
-				(length 2.54)
+				(at -6.35 0 0)
+				(length 3.175)
 				(name "2"
 					(effects
 						(font
