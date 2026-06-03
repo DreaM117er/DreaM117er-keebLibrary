@@ -55,6 +55,46 @@
 	)
 	(attr smd)
 	(fp_line
+		(start -19.05 9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "15131d15-74ed-4440-af8b-aa2b655ac05e")
+	)
+	(fp_line
+		(start 19.05 -9.525)
+		(end -19.05 -9.525)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "fca018b5-a887-4907-9660-f427b8677652")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end -19.05 9.525)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "6de51d40-3797-4ce9-b22e-d27ece0bc695")
+	)
+	(fp_line
+		(start 19.05 9.525)
+		(end 19.05 -9.525)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "d0025e03-0cc8-4acc-bd88-d35f6d514a46")
+	)
+	(fp_line
 		(start -15 -5.25)
 		(end -15 6.8)
 		(stroke
