@@ -1,10 +1,10 @@
-(footprint "Jumper_1-dual_side"
+(footprint "Jumper_2to1-dual_side"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
 	(property "Reference" "REF**"
-		(at -2.2 0 270)
+		(at 0 -1.6 180)
 		(layer "Dwgs.User")
 		(uuid "30d5d5e3-6365-4aa1-8698-f65f38a41f86")
 		(effects
@@ -14,16 +14,17 @@
 			)
 		)
 	)
-	(property "Value" "${REFERENCE}"
-		(at 0 -1.7 0)
-		(unlocked yes)
-		(layer "F.SilkS")
+	(property "Value" "${VALUE}"
+		(at -1.6 0 180)
+		(layer "F.SilkS" knockout)
 		(uuid "31b670d2-c815-40b8-93c1-3d9eabe8f280")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
+			(justify right)
 		)
 	)
 	(property "Datasheet" ""
@@ -63,19 +64,20 @@
 			(justify left)
 		)
 	)
-	(property "PAD2_TEXT" "${REFERENCE}"
-		(at 0 -1.7 0)
-		(layer "B.SilkS")
+	(property "PAD2_TEXT" "${VALUE}"
+		(at -1.65 0 0)
+		(layer "B.SilkS" knockout)
 		(uuid "afdd9951-d06b-4446-8a00-9cca515d4a62")
 		(effects
 			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
 			)
-			(justify mirror)
+			(justify left mirror)
 		)
 	)
-	(property "PAD3_TEXT" "1"
+	(property "PAD3_TEXT" "3"
 		(at 2.4 0 0)
 		(layer "B.SilkS" knockout)
 		(uuid "0e312a2a-529e-45f4-a09d-8b59f5f1984b")
@@ -379,6 +381,17 @@
 		)
 		(layer "F.CrtYd")
 		(uuid "04e25376-c946-4ba3-89e7-59286a841146")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2 180)
+		(layer "F.Fab")
+		(uuid "6f296f7e-4218-47d1-aacf-49dea7c2182e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+		)
 	)
 	(pad "1" smd roundrect
 		(at 0.65 0 180)
