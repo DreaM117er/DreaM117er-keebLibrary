@@ -54,7 +54,7 @@
 		)
 	)
 	(property "Pin2" "VCC"
-		(at -1.27 1 90)
+		(at 1.27 1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "4e0567db-4629-4aad-98c5-8fafde4aae9d")
 		(effects
@@ -67,7 +67,7 @@
 		)
 	)
 	(property "Pin3" "SCL"
-		(at 1.27 1 90)
+		(at -1.27 1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "f4b07a50-be9c-4f59-adc3-938cf6e8d0da")
 		(effects
@@ -80,7 +80,7 @@
 		)
 	)
 	(property "Pin1" "GND"
-		(at -3.81 1 90)
+		(at 3.81 1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "e45c670d-e563-45ed-a3f9-3a258ddc5000")
 		(effects
@@ -93,7 +93,7 @@
 		)
 	)
 	(property "Pin4" "SDA"
-		(at 3.81 1 90)
+		(at -3.81 1 90)
 		(layer "F.SilkS" knockout)
 		(uuid "e87ddd85-d6fa-4df2-9db8-b1188600b0ec")
 		(effects
@@ -217,7 +217,7 @@
 		(uuid "539aa575-b3aa-46d8-8513-fa94cb2e137a")
 	)
 	(pad "1" thru_hole circle
-		(at -3.81 0)
+		(at 3.81 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -236,7 +236,7 @@
 		(uuid "2f40b801-1a4d-4ccf-9f3f-17bc9357edd0")
 	)
 	(pad "2" thru_hole circle
-		(at -1.27 0)
+		(at 1.27 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -255,7 +255,7 @@
 		(uuid "1465839f-324f-4905-9ddf-22273dafb53e")
 	)
 	(pad "3" thru_hole circle
-		(at 1.27 0)
+		(at -1.27 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
@@ -274,7 +274,7 @@
 		(uuid "10c2d4d8-add4-4ceb-9103-cc57b52b035a")
 	)
 	(pad "4" thru_hole circle
-		(at 3.81 0)
+		(at -3.81 0)
 		(size 1.7 1.7)
 		(drill 1)
 		(layers "*.Cu" "*.Mask")
