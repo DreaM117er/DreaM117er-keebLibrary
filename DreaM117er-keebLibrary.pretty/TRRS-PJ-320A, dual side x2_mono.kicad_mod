@@ -109,8 +109,8 @@
 	)
 	(attr through_hole)
 	(fp_line
-		(start -9.214879 2.199781)
-		(end -9.214611 12.199515)
+		(start -9.214879 2.199783)
+		(end -9.214611 12.199511)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -179,8 +179,8 @@
 		(uuid "3767c54b-9c63-466a-bad0-d438fd6ba764")
 	)
 	(fp_line
-		(start 9.203039 2.200221)
-		(end 9.202771 12.199955)
+		(start 9.214881 2.20022)
+		(end 9.202771 12.19995)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -233,7 +233,7 @@
 		(uuid "a17e914b-7ff1-494c-86ea-e676449d0207")
 	)
 	(fp_line
-		(start -9.203039 2.200221)
+		(start -9.214881 2.200271)
 		(end -9.202771 12.199955)
 		(stroke
 			(width 0.1)
@@ -294,7 +294,7 @@
 	)
 	(fp_line
 		(start 9.214879 2.199781)
-		(end 9.214611 12.199515)
+		(end 9.214611 12.19951)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)

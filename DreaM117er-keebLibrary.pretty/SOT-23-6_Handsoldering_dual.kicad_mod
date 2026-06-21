@@ -53,7 +53,7 @@
 			)
 		)
 	)
-	(property "Ref" "REF**"
+	(property "Ref" "${REFERENCE}"
 		(at 0 2.5 180)
 		(layer "B.SilkS")
 		(uuid "8ae8c7b5-408e-403a-92e8-eb4267a572f2")
