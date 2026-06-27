@@ -51,6 +51,56 @@
 			)
 		)
 	)
+	(property "Pin1-1" "+"
+		(at -3 0 0)
+		(layer "F.SilkS" knockout)
+		(uuid "44bb36dd-9704-4500-a691-1de8c2b6cd6c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Pin2-1" "-"
+		(at 5 0 0)
+		(layer "F.SilkS" knockout)
+		(uuid "b9fb4386-8dd5-422d-857e-bb26aaff3959")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(property "Pin1-2" "+"
+		(at -3 0 0)
+		(layer "B.SilkS" knockout)
+		(uuid "6a8a4960-917f-45b3-bdd7-66255e6245c7")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Pin2-2" "-"
+		(at 5 0 0)
+		(layer "B.SilkS" knockout)
+		(uuid "2affbe8e-b99d-47af-aaa3-ad404f53d78c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(attr through_hole)
 	(fp_line
 		(start -2.06 -1.46)
@@ -131,16 +181,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "390de428-cd56-41ca-a2d2-c19d60709468")
-	)
-	(fp_line
-		(start -0.86 0.14)
-		(end -0.86 -1.075)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "F.SilkS")
-		(uuid "1e479928-dbb1-446b-9df5-5c319ecbebc0")
 	)
 	(fp_line
 		(start -0.8 4.1)
@@ -302,6 +342,18 @@
 		(layer "F.SilkS")
 		(uuid "92698143-c871-43da-a9de-791c677cd08e")
 	)
+	(fp_poly
+		(pts
+			(xy -0.8 4.1) (xy -0.3 4.1) (xy -0.3 6.36) (xy -0.8 6.36)
+		)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "7389dc39-c45a-4446-9f9b-320359ac566f")
+	)
 	(fp_line
 		(start -2.06 -1.46)
 		(end -1.14 -1.46)
@@ -371,16 +423,6 @@
 		)
 		(layer "B.SilkS")
 		(uuid "7819555e-f494-42af-9acd-93167d5545a0")
-	)
-	(fp_line
-		(start -0.86 0.14)
-		(end -0.86 -1.075)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "755e7775-0a46-45bc-8ffd-84050f2f1b5f")
 	)
 	(fp_line
 		(start -0.8 4.1)
@@ -551,6 +593,17 @@
 		)
 		(layer "B.SilkS")
 		(uuid "bd989ccf-1478-47d1-8fba-4b70cf8f1cfa")
+	)
+	(fp_rect
+		(start -0.8 4.1)
+		(end -0.3 6.36)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "B.SilkS")
+		(uuid "a48b610c-e2e1-4ee5-8c28-6d5dbb051dbf")
 	)
 	(fp_line
 		(start -2.45 -1.85)
