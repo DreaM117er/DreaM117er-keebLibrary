@@ -15,13 +15,13 @@
 			)
 		)
 	)
-	(property "Value" "REF**"
+	(property "Value" "${REFERENCE}"
 		(at 0 1.8 180)
 		(layer "F.Fab")
 		(uuid "31b670d2-c815-40b8-93c1-3d9eabe8f280")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.8 0.8)
 				(thickness 0.15)
 			)
 		)
@@ -72,6 +72,54 @@
 				(size 1.27 1.27)
 				(thickness 0.15)
 			)
+		)
+	)
+	(property "PAD2_TEXT" "${PAD2_TEXT}"
+		(at -1.6 0 0)
+		(layer "F.SilkS")
+		(uuid "7e653a1f-accd-4129-9719-1d90c5d9abcd")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right)
+		)
+	)
+	(property "PAD2_TEXT2" "${PAD2_TEXT}"
+		(at -1.6 0 0)
+		(layer "B.SilkS")
+		(uuid "c1753ed7-94f5-4610-94cc-a01d6e40bb5e")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left mirror)
+		)
+	)
+	(property "PAD1_TEXT" "${PAD1_TEXT}"
+		(at 2.4 0 0)
+		(layer "F.SilkS")
+		(uuid "75e1c79f-1813-4199-9261-3f4d33241a47")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify left)
+		)
+	)
+	(property "PAD3_TEXT" "${PAD3_TEXT}"
+		(at 2.4 0 0)
+		(layer "B.SilkS")
+		(uuid "e2c9c263-06e3-437e-955c-6d416c9d1ad8")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.12)
+			)
+			(justify right mirror)
 		)
 	)
 	(zone_connect 1)
@@ -213,36 +261,6 @@
 		(uuid "b8adb601-315a-4a95-919c-a85efc384068")
 	)
 	(fp_line
-		(start -1.73 -0.3)
-		(end -2.249615 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "92336a9d-214d-490b-88c5-c687f50668b0")
-	)
-	(fp_line
-		(start -1.73 -0.3)
-		(end -1.73 0.3)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "8c98e4f1-f7f1-43ca-abf6-9b4158c50294")
-	)
-	(fp_line
-		(start -1.73 0.3)
-		(end -2.249615 0)
-		(stroke
-			(width 0.12)
-			(type default)
-		)
-		(layer "B.SilkS")
-		(uuid "426221d4-3add-44c4-aff1-2a79cc960f84")
-	)
-	(fp_line
 		(start -1.45 -0.22)
 		(end -1.45 0.22)
 		(stroke
@@ -281,6 +299,36 @@
 		)
 		(layer "B.SilkS")
 		(uuid "b94c803a-ff02-459d-83a8-4e8b32fb810e")
+	)
+	(fp_line
+		(start 1.730385 -0.3)
+		(end 2.25 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "426221d4-3add-44c4-aff1-2a79cc960f84")
+	)
+	(fp_line
+		(start 1.730385 0.3)
+		(end 1.730385 -0.3)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "8c98e4f1-f7f1-43ca-abf6-9b4158c50294")
+	)
+	(fp_line
+		(start 1.730385 0.3)
+		(end 2.25 0)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "B.SilkS")
+		(uuid "92336a9d-214d-490b-88c5-c687f50668b0")
 	)
 	(fp_arc
 		(start -1.45 -0.22)
@@ -366,63 +414,6 @@
 		(layer "F.CrtYd")
 		(uuid "04e25376-c946-4ba3-89e7-59286a841146")
 	)
-	(fp_text user "2"
-		(at -2.1 0 0)
-		(layer "F.SilkS")
-		(uuid "7d339834-026c-4498-8436-3a886a25b6a6")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(fp_text user "1"
-		(at 2.85 0 0)
-		(layer "F.SilkS")
-		(uuid "ca73195c-afe9-4149-bd5d-ba19b534e9eb")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
-	(fp_text user "2"
-		(at 2.1 0 0)
-		(layer "B.SilkS")
-		(uuid "7ca83e8b-f096-4e39-a771-2354ee72b352")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "3"
-		(at -2.85 0 0)
-		(layer "B.SilkS")
-		(uuid "7dbd700d-e582-45c7-9b71-0caf8b8d5c58")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-			(justify mirror)
-		)
-	)
-	(fp_text user "${REFERENCE}"
-		(at 0 3.1 180)
-		(layer "F.Fab")
-		(uuid "6f296f7e-4218-47d1-aacf-49dea7c2182e")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
-	)
 	(pad "1" smd roundrect
 		(at 0.65 0 180)
 		(size 1 1.5)
@@ -442,7 +433,7 @@
 		(uuid "d4287c77-5b37-4ee9-8744-095ce4a085a5")
 	)
 	(pad "2" smd roundrect
-		(at 0.65 0)
+		(at -0.65 0 180)
 		(size 1 1.5)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)
@@ -451,7 +442,7 @@
 		(uuid "3b542f82-c176-420d-bd9d-a0b81e02b809")
 	)
 	(pad "3" smd roundrect
-		(at -0.65 0 180)
+		(at 0.65 0)
 		(size 1 1.5)
 		(layers "B.Cu" "B.Mask")
 		(roundrect_rratio 0.5)

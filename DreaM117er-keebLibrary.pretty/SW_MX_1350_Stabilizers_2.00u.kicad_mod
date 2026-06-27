@@ -439,6 +439,86 @@
 		(uuid "26147e34-6c77-4fa5-adbe-0e221f5e481a")
 	)
 	(fp_line
+		(start -15.375 -5.53)
+		(end -15.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "14ea2680-9d4c-46e2-9820-6ebee0583512")
+	)
+	(fp_line
+		(start -15.375 6.77)
+		(end -8.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "61d15e26-a161-4598-8fc5-7b236012d3fc")
+	)
+	(fp_line
+		(start -8.625 -5.53)
+		(end -15.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "1ffcb540-4f4d-4010-a257-8f171aebbc0d")
+	)
+	(fp_line
+		(start -8.625 6.77)
+		(end -8.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "52dc9deb-d9b6-4349-a988-61740c01340f")
+	)
+	(fp_line
+		(start 8.625 -5.53)
+		(end 8.625 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "53b0ed2a-e65f-463c-a679-0b3531f9fe49")
+	)
+	(fp_line
+		(start 8.625 6.77)
+		(end 15.375 6.77)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "d0ea92d0-1358-405a-b9d7-480a6e4de82f")
+	)
+	(fp_line
+		(start 15.375 -5.53)
+		(end 8.625 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5cba5daf-3834-4343-b2f6-cf14dcc6935c")
+	)
+	(fp_line
+		(start 15.375 6.77)
+		(end 15.375 -5.53)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "5dae1006-2469-4d02-88a3-3ecddf410ee8")
+	)
+	(fp_line
 		(start -14.5 -2.55)
 		(end -14.5 2.55)
 		(stroke

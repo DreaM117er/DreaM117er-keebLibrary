@@ -50,7 +50,7 @@
 			)
 		)
 	)
-	(property "PAD1_TEXT" "1"
+	(property "PAD1_TEXT" "${PAD1_TEXT}"
 		(at 2.4 0 180)
 		(layer "F.SilkS" knockout)
 		(uuid "7ee6842a-117a-4ddc-b252-9eb75bb6e664")
@@ -75,7 +75,7 @@
 			(justify mirror)
 		)
 	)
-	(property "PAD3_TEXT" "1"
+	(property "PAD3_TEXT" "${PAD1_TEXT}"
 		(at 2.4 0 0)
 		(layer "B.SilkS" knockout)
 		(uuid "0e312a2a-529e-45f4-a09d-8b59f5f1984b")

@@ -368,15 +368,6 @@
 		(layers "*.Cu" "*.Mask")
 		(uuid "fc8208af-7ac7-4e64-8f4a-7465d5eb10be")
 	)
-	(pad "1" smd roundrect
-		(at -24.33 0)
-		(size 1 1.5)
-		(layers "B.Cu" "B.Mask")
-		(roundrect_rratio 0.5)
-		(chamfer_ratio 0)
-		(chamfer top_left top_right bottom_left bottom_right)
-		(uuid "f667c3e4-39b5-4e1e-9687-647448661487")
-	)
 	(embedded_fonts no)
 	(model "D:/Documents/KiCad/6.0/footprints/kbd/kicad-packages3D/kbd.3dshapes/Kailh-CherryMX-Socket.step"
 		(offset

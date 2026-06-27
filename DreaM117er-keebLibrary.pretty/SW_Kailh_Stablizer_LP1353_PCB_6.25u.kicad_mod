@@ -55,24 +55,44 @@
 	)
 	(attr smd)
 	(fp_line
-		(start -45.05 9.525)
-		(end -45.05 -9.525)
+		(start -59.53125 -9.525)
+		(end -59.53125 9.525)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "6e9b32fe-97df-4f8f-a9b9-5cb15412d3f1")
+		(uuid "e512efa0-64f7-4b14-80fc-ffacb8946db3")
 	)
 	(fp_line
-		(start 45.05 9.525)
-		(end 45.05 -9.525)
+		(start -59.53125 9.525)
+		(end 59.53125 9.525)
 		(stroke
-			(width 0.12)
-			(type default)
+			(width 0.1)
+			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "82969093-11e8-4294-a786-bd229dd6ca06")
+		(uuid "39798270-6b10-401c-bef5-4a8638e35edf")
+	)
+	(fp_line
+		(start 59.53125 -9.525)
+		(end -59.53125 -9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "6439dc9b-dd54-4c58-83bd-c29a417c2122")
+	)
+	(fp_line
+		(start 59.53125 -9.525)
+		(end 59.53125 9.525)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "d5400946-175e-4c5c-945e-fd5efa4ead4d")
 	)
 	(fp_line
 		(start -40.975 4.55)
@@ -241,26 +261,6 @@
 		)
 		(layer "Edge.Cuts")
 		(uuid "c97bad59-b70c-46eb-a633-e7bf48d65ce7")
-	)
-	(fp_line
-		(start -45.05 9.525)
-		(end 45.05 9.525)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "b43fa3ef-7691-4fa9-8952-c36e73ed8662")
-	)
-	(fp_line
-		(start 45.05 -9.525)
-		(end -45.05 -9.525)
-		(stroke
-			(width 0.1)
-			(type default)
-		)
-		(layer "F.Fab")
-		(uuid "54630457-3660-48f8-a0c8-14ec604a2842")
 	)
 	(fp_text user "Plate Edge"
 		(at -38 6.475 0)
