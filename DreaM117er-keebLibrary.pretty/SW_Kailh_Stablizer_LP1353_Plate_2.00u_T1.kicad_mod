@@ -106,6 +106,46 @@
 		(uuid "9d7737f7-1883-4c36-b29d-da0ffed3fff5")
 	)
 	(fp_line
+		(start -13.975 0)
+		(end -10.025 0)
+		(stroke
+			(width 0.53)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "222f72ff-1ba8-4579-b4d9-7b79d9663179")
+	)
+	(fp_line
+		(start -12 1.975)
+		(end -12 -1.975)
+		(stroke
+			(width 0.63)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "6566264b-bec7-44cf-bcbb-f35d142e70f5")
+	)
+	(fp_line
+		(start 10.025 0)
+		(end 13.975 0)
+		(stroke
+			(width 0.53)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "14402bc7-b318-4012-a4d9-aee1d86f6212")
+	)
+	(fp_line
+		(start 12 1.975)
+		(end 12 -1.975)
+		(stroke
+			(width 0.63)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "fe7acbe0-81f7-4985-a4d1-e42aff5a2933")
+	)
+	(fp_line
 		(start -14.975 3.25)
 		(end -14.975 -4.5)
 		(stroke
