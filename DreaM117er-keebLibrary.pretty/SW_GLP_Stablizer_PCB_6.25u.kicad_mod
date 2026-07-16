@@ -94,6 +94,57 @@
 		(layer "Dwgs.User")
 		(uuid "5025c535-4e1c-410e-ab6b-b490e884b8ff")
 	)
+	(fp_rect
+		(start -7.05 -7.05)
+		(end 7.05 7.05)
+		(stroke
+			(width 0.05)
+			(type dash)
+		)
+		(fill no)
+		(layer "Eco1.User")
+		(uuid "ebf2bdc9-e956-4b35-a161-63509abc594b")
+	)
+	(fp_line
+		(start -51.95 0)
+		(end -48.05 0)
+		(stroke
+			(width 0.725)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "f28325bd-a23d-4251-9299-d9e38eb76763")
+	)
+	(fp_line
+		(start -50 -1.95)
+		(end -50 1.95)
+		(stroke
+			(width 0.54)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "7d73eeea-6d7d-4db6-9f49-e5c43a98fd18")
+	)
+	(fp_line
+		(start 48.05 0)
+		(end 51.95 0)
+		(stroke
+			(width 0.725)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "489e0dd8-b272-47fe-b9de-20bf878e8d95")
+	)
+	(fp_line
+		(start 50 -1.95)
+		(end 50 1.95)
+		(stroke
+			(width 0.54)
+			(type solid)
+		)
+		(layer "Eco2.User")
+		(uuid "8867863b-1dd3-42ca-8b45-6430c505f51f")
+	)
 	(fp_line
 		(start -53 -5.25)
 		(end -53 6.8)
