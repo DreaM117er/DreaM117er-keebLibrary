@@ -9327,7 +9327,7 @@
 					)
 				)
 			)
-			(pin passive line
+			(pin no_connect line
 				(at 5.08 -2.54 180)
 				(length 2.54)
 				(name "X"
@@ -10032,10 +10032,10 @@
 			)
 		)
 		(symbol "TRRS-PJ-399-6A_1_1"
-			(pin passive line
+			(pin no_connect line
 				(at -6.35 2.54 0)
 				(length 2.54)
-				(name "NC"
+				(name ""
 					(effects
 						(font
 							(size 1.27 1.27)
