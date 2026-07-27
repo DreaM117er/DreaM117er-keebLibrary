@@ -58,6 +58,7 @@
 	(property "Value2" "${VALUE}"
 		(at 0 3.85 0)
 		(layer "B.SilkS" knockout)
+		(hide yes)
 		(uuid "f8072ff1-6b96-4052-81b1-49fff6d05f12")
 		(effects
 			(font
@@ -148,86 +149,6 @@
 		)
 		(layer "F.SilkS")
 		(uuid "6060628a-c37c-4953-90a4-b75480eeecd2")
-	)
-	(fp_line
-		(start -2.75 -1)
-		(end -2.75 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "b5c5d115-b439-4476-8fd0-3309520c3bb4")
-	)
-	(fp_line
-		(start -1.7 -2.3)
-		(end -1.25 -2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "cd3438c0-a3c1-40f2-8649-e89c3a05d761")
-	)
-	(fp_line
-		(start -1.7 2.3)
-		(end -1.25 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6e86c84e-c410-407c-aea3-fa7b4bd4f9fc")
-	)
-	(fp_line
-		(start 1.25 -2.75)
-		(end -1.25 -2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "26b4d9cb-d5df-4094-8d20-9f4a830f7f87")
-	)
-	(fp_line
-		(start 1.25 2.75)
-		(end -1.25 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "feb0b413-01c6-4c38-9832-de32fc7d2a43")
-	)
-	(fp_line
-		(start 1.7 -2.3)
-		(end 1.25 -2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "abbc26d5-5071-495d-a92d-78790bba890c")
-	)
-	(fp_line
-		(start 1.7 2.3)
-		(end 1.25 2.75)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "e721f81a-3bb1-42f4-83eb-ddfa8f5b16b3")
-	)
-	(fp_line
-		(start 2.75 -1)
-		(end 2.75 1)
-		(stroke
-			(width 0.12)
-			(type solid)
-		)
-		(layer "B.SilkS")
-		(uuid "6e09b870-4670-4276-8e02-07b76fb22d77")
 	)
 	(fp_line
 		(start -4.25 -3)
@@ -618,22 +539,10 @@
 		(uuid "2fdf9f96-3bc8-4370-a497-47cf413d8eb6")
 	)
 	(pad "1" smd rect
-		(at -3.15 -1.9)
-		(size 1.7 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "27ead69e-2d84-4edb-9bdd-be9eb162f155")
-	)
-	(pad "1" smd rect
 		(at 3.15 -1.9)
 		(size 1.7 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "ef152499-9140-4e95-9a81-89d58a4473ba")
-	)
-	(pad "1" smd rect
-		(at 3.15 -1.9)
-		(size 1.7 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "dcfe05f9-962e-4bfb-ba4d-4e50d970a601")
 	)
 	(pad "2" smd rect
 		(at -3.15 1.9)
@@ -642,22 +551,10 @@
 		(uuid "c0f8e203-3d85-4d5e-bbf8-0a1cf32bcf1b")
 	)
 	(pad "2" smd rect
-		(at -3.15 1.9)
-		(size 1.7 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "66e1df25-c6a0-4959-b85d-1f4459bf1f23")
-	)
-	(pad "2" smd rect
 		(at 3.15 1.9)
 		(size 1.7 1)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "0320eeb2-6a91-4d2d-9032-8bc9cc0cb72d")
-	)
-	(pad "2" smd rect
-		(at 3.15 1.9)
-		(size 1.7 1)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "2b71f2b7-a571-40df-b2eb-c03b1955a5ed")
 	)
 	(embedded_fonts no)
 	(model "${KICAD9_3DMODEL_DIR}/Button_Switch_SMD.3dshapes/SW_SPST_TL3342.step"
