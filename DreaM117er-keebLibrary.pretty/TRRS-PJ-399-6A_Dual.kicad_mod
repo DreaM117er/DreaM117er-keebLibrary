@@ -3,7 +3,7 @@
 	(generator "pcbnew")
 	(generator_version "9.0")
 	(layer "F.Cu")
-	(descr "TRRS Jack with type CB.")
+	(descr "TRS Jack with type CB.")
 	(property "Reference" "J"
 		(at 0 -3.3 0)
 		(unlocked yes)
@@ -16,7 +16,7 @@
 			)
 		)
 	)
-	(property "Value" "TRRS"
+	(property "Value" "TRS"
 		(at 0 13.8 0)
 		(unlocked yes)
 		(layer "F.Fab")
@@ -365,35 +365,23 @@
 			)
 		)
 	)
-	(pad "1" thru_hole oval
-		(at 3.95 2.7 180)
+	(pad "R" thru_hole oval
+		(at -3.95 5.9 180)
 		(size 1.4 2.2)
 		(drill oval 0.8 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "3d3c514d-5dbb-4c95-be81-c3267653315e")
+		(uuid "70ffbe9a-6c40-4b2c-81a5-3ee288b78cd3")
 	)
-	(pad "2" thru_hole oval
-		(at 3.95 5.9 180)
+	(pad "R" thru_hole oval
+		(at 3.95 5.9)
 		(size 1.4 2.2)
 		(drill oval 0.8 1.6)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
 		(uuid "ab8ce56f-d941-44ed-a8b8-ad4d8ffd532b")
 	)
-	(pad "3" smd rect
-		(at -3.95 11.8)
-		(size 1.4 1.8)
-		(layers "B.Cu" "B.Mask" "B.Paste")
-		(uuid "d7d381ae-01b0-444c-836b-c5deb82083b7")
-	)
-	(pad "3" smd rect
-		(at 3.95 11.8)
-		(size 1.4 1.8)
-		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "8d04fd9f-a05b-4e51-aa51-ba4028f098d5")
-	)
-	(pad "4" thru_hole oval
+	(pad "S" thru_hole oval
 		(at -3.95 2.7 180)
 		(size 1.4 2.2)
 		(drill oval 0.8 1.6)
@@ -401,25 +389,37 @@
 		(remove_unused_layers no)
 		(uuid "4a48437f-f274-441d-b742-7730045a7261")
 	)
-	(pad "5" smd rect
+	(pad "S" thru_hole oval
+		(at 3.95 2.7 180)
+		(size 1.4 2.2)
+		(drill oval 0.8 1.6)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d3c514d-5dbb-4c95-be81-c3267653315e")
+	)
+	(pad "T" smd rect
 		(at -3.95 11.8)
 		(size 1.4 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "28fb0eb0-b38a-4318-be7f-49e79b31c1bb")
 	)
-	(pad "5" smd rect
+	(pad "T" smd rect
+		(at -3.95 11.8)
+		(size 1.4 1.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "d7d381ae-01b0-444c-836b-c5deb82083b7")
+	)
+	(pad "T" smd rect
+		(at 3.95 11.8)
+		(size 1.4 1.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "8d04fd9f-a05b-4e51-aa51-ba4028f098d5")
+	)
+	(pad "T" smd rect
 		(at 3.95 11.8)
 		(size 1.4 1.8)
 		(layers "B.Cu" "B.Mask" "B.Paste")
 		(uuid "598835ca-bd98-4813-864a-7ca69e2ee16c")
-	)
-	(pad "6" thru_hole oval
-		(at -3.95 5.9 180)
-		(size 1.4 2.2)
-		(drill oval 0.8 1.6)
-		(layers "*.Cu" "*.Mask")
-		(remove_unused_layers no)
-		(uuid "70ffbe9a-6c40-4b2c-81a5-3ee288b78cd3")
 	)
 	(embedded_fonts no)
 )

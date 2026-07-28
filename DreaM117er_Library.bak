@@ -10032,10 +10032,10 @@
 			)
 		)
 		(symbol "TRRS-PJ-399-6A_1_1"
-			(pin no_connect line
+			(pin passive line
 				(at -6.35 2.54 0)
 				(length 2.54)
-				(name ""
+				(name "R1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10053,7 +10053,7 @@
 			(pin passive line
 				(at -6.35 0 0)
 				(length 2.54)
-				(name "SW"
+				(name "T"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10071,7 +10071,7 @@
 			(pin passive line
 				(at -6.35 -2.54 0)
 				(length 2.54)
-				(name "S"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10089,7 +10089,7 @@
 			(pin passive line
 				(at 6.35 2.54 180)
 				(length 2.54)
-				(name "T"
+				(name "S"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10107,7 +10107,7 @@
 			(pin passive line
 				(at 6.35 0 180)
 				(length 2.54)
-				(name "R1"
+				(name "R2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -10125,7 +10125,7 @@
 			(pin passive line
 				(at 6.35 -2.54 180)
 				(length 2.54)
-				(name "R2"
+				(name "NC"
 					(effects
 						(font
 							(size 1.27 1.27)

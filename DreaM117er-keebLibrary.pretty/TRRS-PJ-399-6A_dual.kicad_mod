@@ -1,4 +1,4 @@
-(footprint "TRRS-PJ-399-6A"
+(footprint "TRRS-PJ-399-6A_dual"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")
@@ -300,10 +300,22 @@
 		(uuid "64dc8f77-27ca-4b57-b163-665b74a7558d")
 	)
 	(pad "T" smd rect
+		(at -3.95 11.8)
+		(size 1.4 1.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "5ee46e92-51c0-46b3-ae02-80f626afbf21")
+	)
+	(pad "T" smd rect
 		(at 3.95 11.8)
 		(size 1.4 1.8)
 		(layers "F.Cu" "F.Mask" "F.Paste")
 		(uuid "48ecd244-2f64-4289-9e63-05bfefb7febe")
+	)
+	(pad "T" smd rect
+		(at 3.95 11.8)
+		(size 1.4 1.8)
+		(layers "B.Cu" "B.Mask" "B.Paste")
+		(uuid "02920f02-7b1d-4448-8507-163b2be0e6f3")
 	)
 	(embedded_fonts no)
 )
