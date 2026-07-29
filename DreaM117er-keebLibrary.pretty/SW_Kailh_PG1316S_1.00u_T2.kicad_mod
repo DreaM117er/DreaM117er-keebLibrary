@@ -358,8 +358,8 @@
 		(uuid "5e11c629-cd8a-477f-b0d2-219cf4c06a5b")
 	)
 	(fp_line
-		(start -2.5005 5.065)
-		(end -2.5005 0.25)
+		(start -2.5005 4.15)
+		(end -2.5005 1.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -368,8 +368,8 @@
 		(uuid "08bd47f6-cbba-436d-adbb-73cef4af1dc1")
 	)
 	(fp_line
-		(start -1.5005 -0.75)
-		(end 1.4995 -0.75)
+		(start -1.5005 0.15)
+		(end 1.4995 0.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -378,8 +378,8 @@
 		(uuid "ef92cae8-3a33-4a50-83a1-970254616c05")
 	)
 	(fp_line
-		(start 1.4995 6.065)
-		(end -1.5005 6.065)
+		(start 1.4995 5.15)
+		(end -1.5005 5.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -388,8 +388,8 @@
 		(uuid "9c9c92c4-8934-4f5e-b02f-285cc1195d81")
 	)
 	(fp_line
-		(start 2.4995 0.25)
-		(end 2.4995 5.065)
+		(start 2.4995 1.15)
+		(end 2.4995 4.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -398,9 +398,9 @@
 		(uuid "db6f7d30-36eb-4066-a758-a90389f40dfe")
 	)
 	(fp_arc
-		(start -2.5005 0.25)
-		(mid -2.207607 -0.457107)
-		(end -1.5005 -0.75)
+		(start -2.5005 1.15)
+		(mid -2.207607 0.442893)
+		(end -1.5005 0.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -409,9 +409,9 @@
 		(uuid "38260764-4681-410a-be3b-b4910d2b0252")
 	)
 	(fp_arc
-		(start -1.5005 6.065)
-		(mid -2.207607 5.772107)
-		(end -2.5005 5.065)
+		(start -1.5005 5.15)
+		(mid -2.207607 4.857107)
+		(end -2.5005 4.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -420,9 +420,9 @@
 		(uuid "aac5ffaf-9c19-40ec-8a7c-d53ffe57268e")
 	)
 	(fp_arc
-		(start 1.4995 -0.75)
-		(mid 2.206607 -0.457107)
-		(end 2.4995 0.25)
+		(start 1.4995 0.15)
+		(mid 2.206607 0.442893)
+		(end 2.4995 1.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -431,9 +431,9 @@
 		(uuid "7625592e-f21f-46d3-b856-1fb2fefb347e")
 	)
 	(fp_arc
-		(start 2.4995 5.065)
-		(mid 2.206607 5.772107)
-		(end 1.4995 6.065)
+		(start 2.4995 4.15)
+		(mid 2.206607 4.857107)
+		(end 1.4995 5.15)
 		(stroke
 			(width 0.05)
 			(type default)
@@ -533,32 +533,34 @@
 		(uuid "b65a1775-e0b0-4389-ad8d-1a94430d9735")
 	)
 	(pad "1" smd rect
-		(at -2.888 2.65)
-		(size 0.775 1.55)
+		(at -3.274 2.65)
+		(size 1.55 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "5d9371e5-1b8a-4102-9c8d-d3dd76a220a0")
+		(uuid "4795be52-51d5-459f-bf73-3974cb812411")
 	)
 	(pad "1" thru_hole circle
-		(at -2.5 2.65 90)
-		(size 1.55 1.55)
-		(drill 1)
+		(at -2.5 2.65)
+		(size 2 2)
+		(drill 1.2)
+		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "e9e062c8-c091-406b-9c54-11f5b498e30d")
+		(uuid "65fefede-7f7f-46c3-9b6f-8a7d53f10852")
 	)
 	(pad "2" thru_hole circle
-		(at 2.5 2.65 90)
-		(size 1.55 1.55)
-		(drill 1)
+		(at 2.5 2.65)
+		(size 2 2)
+		(drill 1.2)
+		(property pad_prop_castellated)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "16ccf818-ae70-4d93-ba9c-d5bfe4693103")
+		(uuid "b823b2ea-2a98-4b2a-a8a9-62787bf0872a")
 	)
 	(pad "2" smd rect
-		(at 2.888 2.65)
-		(size 0.775 1.55)
+		(at 3.274 2.65)
+		(size 1.55 2)
 		(layers "F.Cu" "F.Mask" "F.Paste")
-		(uuid "655865e2-b7a3-4c51-a2dc-4ac851a3ab9f")
+		(uuid "12a33c23-849e-4816-9631-37d0b523aa25")
 	)
 	(embedded_fonts no)
 	(model "${KICAD6_3RD_PARTY}/3dmodels/com_github_perigoso_keyswitch-kicad-library/3d-library.3dshapes/SW_Hotswap_Kailh_Choc_V1.wrl"

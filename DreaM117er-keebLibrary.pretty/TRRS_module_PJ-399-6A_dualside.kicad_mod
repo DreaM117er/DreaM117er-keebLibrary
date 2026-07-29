@@ -16,14 +16,15 @@
 		)
 	)
 	(property "Value" "AudioJack4"
-		(at 0 -3.4 0)
-		(layer "F.Fab")
-		(hide yes)
+		(at 0 13.75 0)
+		(unlocked yes)
+		(layer "F.SilkS" knockout)
 		(uuid "d3e77386-a866-49d9-988a-92c32df31ac0")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.15)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -111,10 +112,24 @@
 			(justify left mirror)
 		)
 	)
+	(property "VAL" "${VALUE}"
+		(at 0 13.75 0)
+		(unlocked yes)
+		(layer "B.SilkS" knockout)
+		(uuid "cd1210af-2ebd-4e0f-9b3b-28184a13573c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.2)
+				(bold yes)
+			)
+			(justify mirror)
+		)
+	)
 	(attr through_hole)
 	(fp_line
-		(start -8.72 2.2)
-		(end -8.72 12.53)
+		(start -8.89 2.2)
+		(end -8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -123,8 +138,8 @@
 		(uuid "59ede975-b768-4cd8-8c0d-1970812dfaeb")
 	)
 	(fp_line
-		(start -6.52 14.73)
-		(end 6.52 14.73)
+		(start -6.69 14.73)
+		(end 6.69 14.73)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -133,8 +148,8 @@
 		(uuid "48d5ad61-36a7-424b-b116-b88701fefd44")
 	)
 	(fp_line
-		(start 8.72 2.2)
-		(end 8.72 12.53)
+		(start 8.89 2.2)
+		(end 8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -143,9 +158,9 @@
 		(uuid "149a3816-4819-4542-bef3-479a5b630806")
 	)
 	(fp_arc
-		(start -8.72 2.2)
-		(mid -8.075635 0.644365)
-		(end -6.52 0)
+		(start -8.89 2.2)
+		(mid -8.245635 0.644365)
+		(end -6.69 0)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -154,9 +169,9 @@
 		(uuid "4cdd98a5-cf87-40bc-9bd1-657a5efabfcd")
 	)
 	(fp_arc
-		(start -6.52 14.73)
-		(mid -8.075635 14.085635)
-		(end -8.72 12.53)
+		(start -6.69 14.73)
+		(mid -8.245635 14.085635)
+		(end -8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -165,9 +180,9 @@
 		(uuid "c8827700-e5aa-489c-a363-7668ee1315c4")
 	)
 	(fp_arc
-		(start 6.52 0)
-		(mid 8.075635 0.644365)
-		(end 8.72 2.2)
+		(start 6.69 0)
+		(mid 8.245635 0.644365)
+		(end 8.89 2.2)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -176,9 +191,9 @@
 		(uuid "2421a149-c18b-4747-8f25-601572d920c1")
 	)
 	(fp_arc
-		(start 8.72 12.53)
-		(mid 8.075635 14.085635)
-		(end 6.52 14.73)
+		(start 8.89 12.53)
+		(mid 8.245635 14.085635)
+		(end 6.69 14.73)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -187,8 +202,8 @@
 		(uuid "001f0c41-1936-4bb5-affd-683e45e41c7f")
 	)
 	(fp_line
-		(start -8.72 2.2)
-		(end -8.72 12.53)
+		(start -8.89 2.2)
+		(end -8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -197,8 +212,8 @@
 		(uuid "28029227-51bf-4977-b758-28e2e0f4c7e6")
 	)
 	(fp_line
-		(start 6.52 14.73)
-		(end -6.52 14.73)
+		(start 6.69 14.73)
+		(end -6.69 14.73)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -207,8 +222,8 @@
 		(uuid "a3528e64-fc58-4f3f-98a4-8c2b4705dd89")
 	)
 	(fp_line
-		(start 8.72 2.2)
-		(end 8.72 12.53)
+		(start 8.89 2.2)
+		(end 8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -217,9 +232,9 @@
 		(uuid "73d1217c-52c6-4b6f-8eec-25ef4f689c5c")
 	)
 	(fp_arc
-		(start -8.72 2.2)
-		(mid -8.075635 0.644365)
-		(end -6.52 0)
+		(start -8.89 2.2)
+		(mid -8.245635 0.644365)
+		(end -6.69 0)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -228,9 +243,9 @@
 		(uuid "a3a7098a-61b4-41b7-8809-5becb65c9558")
 	)
 	(fp_arc
-		(start -6.52 14.73)
-		(mid -8.075635 14.085635)
-		(end -8.72 12.53)
+		(start -6.69 14.73)
+		(mid -8.245635 14.085635)
+		(end -8.89 12.53)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -239,9 +254,9 @@
 		(uuid "1857b313-6f80-4a6e-ba40-5ec2260fe6ad")
 	)
 	(fp_arc
-		(start 6.52 0)
-		(mid 8.075635 0.644365)
-		(end 8.72 2.2)
+		(start 6.69 0)
+		(mid 8.245635 0.644365)
+		(end 8.89 2.2)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
@@ -250,9 +265,9 @@
 		(uuid "27e90b50-c876-4d6d-bb07-3b63c733a0e9")
 	)
 	(fp_arc
-		(start 8.72 12.53)
-		(mid 8.075635 14.085635)
-		(end 6.52 14.73)
+		(start 8.89 12.53)
+		(mid 8.245635 14.085635)
+		(end 6.69 14.73)
 		(stroke
 			(width 0.1)
 			(type dash_dot_dot)
