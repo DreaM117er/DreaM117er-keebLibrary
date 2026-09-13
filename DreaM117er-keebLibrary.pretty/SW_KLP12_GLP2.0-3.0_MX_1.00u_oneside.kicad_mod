@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "Kailh keyswitch Hotswap Socket plated holes Keycap 1.00u")
 	(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Plated Relief Cutout Keycap 1.00u")
-	(property "Reference" "K21"
+	(property "Reference" "SW"
 		(at 0 -8 0)
 		(layer "B.Fab")
 		(uuid "710e7a54-77c9-4ba9-91c5-bf983bef8f40")
