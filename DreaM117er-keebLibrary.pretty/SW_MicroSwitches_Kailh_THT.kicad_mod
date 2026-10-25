@@ -1,14 +1,14 @@
 (footprint "SW_MicroSwitches_Kailh_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Kailh keyswitch Hotswap Socket Keycap 2.50u 90deg")
 	(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 2.50u 90deg")
 	(property "Reference" "REF**"
 		(at 0 -1 0)
 		(layer "F.SilkS")
-		(uuid "597f1b39-2ca7-4c0a-8eac-57cf40e696b2")
+		(uuid "17194627-8252-45a2-924f-662c578ae067")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 13.8 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d79f8585-ff19-45fc-aeac-9817f19f5739")
+		(uuid "f48898f8-e51f-41ad-b6fd-db5088d15716")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d8f57b8a-7202-4883-aae1-0a1e71e49596")
+		(uuid "c6320fdc-5824-4395-b098-e3eaa6cd3290")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "964e26c0-79ba-4268-821f-254530789645")
+		(uuid "27455e59-3301-4758-b91e-1eb568f600f4")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -2.9 0)
 		(end -2.9 12.8)
@@ -61,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "ccc04dfb-e463-40b2-bfc2-46a51d75fd14")
+		(uuid "b689a7fd-5e4a-4886-aa3a-0fd4fa8b5955")
 	)
 	(fp_line
 		(start -2.9 0)
@@ -71,7 +72,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d23c0a3b-acbc-41e3-8e72-cee952f0ea92")
+		(uuid "76324b8b-d74b-440f-959b-5418a4348f06")
 	)
 	(fp_line
 		(start -1.45 3.9)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "b8167c0a-e654-458c-98f7-7777fd39ee27")
+		(uuid "1ca27a68-2d36-4c22-97f5-66a8f608b2ea")
 	)
 	(fp_line
 		(start -1.45 5.1)
@@ -91,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "c333530b-1033-4c46-a4f8-4fe149c2141a")
+		(uuid "1f4dacf9-de91-4011-b262-9ef5449e6c03")
 	)
 	(fp_line
 		(start 1.45 3.9)
@@ -101,7 +102,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "79b90ab7-820f-486a-901f-dae102cb6797")
+		(uuid "a005eacd-2cc6-4060-9223-3761ae26e806")
 	)
 	(fp_line
 		(start 1.45 3.9)
@@ -111,7 +112,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "273c0454-a460-4476-a4cb-a4a177318c0c")
+		(uuid "0a76092c-6962-4762-83f7-446cee2731f7")
 	)
 	(fp_line
 		(start 2.9 0)
@@ -121,7 +122,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "64f93b39-7cc5-4b71-bc03-e3db358c2f58")
+		(uuid "457f0fd8-8c01-4f0b-958d-23af4e7d23ae")
 	)
 	(fp_line
 		(start 2.9 12.8)
@@ -131,7 +132,27 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "25a3c5e2-6d2a-4a07-93ee-e1e22669b90e")
+		(uuid "1ada573d-40b8-4529-b92d-89029057e46d")
+	)
+	(fp_line
+		(start -3.1 0.76)
+		(end 3.1 0.76)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "05d8a7e5-e383-414b-b38e-313f9eb39417")
+	)
+	(fp_line
+		(start -3.1 6.96)
+		(end -3.1 0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "650e0143-590a-446d-b532-729deca6fae3")
 	)
 	(fp_line
 		(start -2.9 0)
@@ -141,7 +162,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "6649db17-5c72-4fe1-ac13-76bafd532247")
+		(uuid "b849889d-9fb4-4013-accb-abaa0a722bac")
 	)
 	(fp_line
 		(start -2.9 0)
@@ -151,7 +172,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "143e7243-11d6-42ef-a67d-b88193948e0e")
+		(uuid "b2fec1ad-bacc-434e-950e-9484e7d2e0f2")
 	)
 	(fp_line
 		(start -1.45 3.9)
@@ -161,7 +182,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "64eacdb1-6cc8-4fec-9e90-4d9e8593daa7")
+		(uuid "296c57b7-a053-4b2d-b63d-de73bbe97665")
 	)
 	(fp_line
 		(start -1.45 5.1)
@@ -171,7 +192,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "5cca90ed-6ab1-4380-8bc8-0208dcf6210e")
+		(uuid "d64597d4-fdab-4202-8704-d9c75c86c33f")
 	)
 	(fp_line
 		(start 1.45 3.9)
@@ -181,7 +202,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "0b270cab-3643-4c16-a392-875e0b9f8535")
+		(uuid "f954a30e-ce33-4b1e-8329-06726865c409")
 	)
 	(fp_line
 		(start 1.45 3.9)
@@ -191,7 +212,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "eed34af6-122f-4887-a83c-a00584ce8b82")
+		(uuid "61b4be48-53fe-41c1-a454-96d089f0ed1d")
 	)
 	(fp_line
 		(start 2.9 12.8)
@@ -201,7 +222,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "1e974c68-89b8-4eb1-855c-b76254665e6d")
+		(uuid "40b29a55-3b88-41a3-8c9b-c4d1d205e86d")
 	)
 	(fp_line
 		(start 2.9 12.8)
@@ -211,12 +232,43 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "a9b45cae-133f-4cb3-b46e-86934060894b")
+		(uuid "b2ad72f2-9974-4da5-9368-929c29bc8057")
+	)
+	(fp_line
+		(start 3.1 6.96)
+		(end -3.1 6.96)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "109f7f0a-1e85-4a3f-8556-e0db0c448ba6")
+	)
+	(fp_line
+		(start 3.1 6.96)
+		(end 3.1 0.76)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(layer "Dwgs.User")
+		(uuid "94b3b4c1-3b6b-4e77-a667-81af884ce4e4")
+	)
+	(fp_circle
+		(center 0 3.86)
+		(end 1.5 3.86)
+		(stroke
+			(width 0.12)
+			(type default)
+		)
+		(fill no)
+		(layer "Dwgs.User")
+		(uuid "31f96989-c8d0-4019-b619-7dc7983f4770")
 	)
 	(fp_text user "REF**"
 		(at 0 -1 0)
 		(layer "F.Fab")
-		(uuid "3794bd9c-5a13-4292-9090-b4f7305dc18f")
+		(uuid "731ba2e2-0042-468b-9279-9cfbe729dc1f")
 		(effects
 			(font
 				(size 1 1)
@@ -228,24 +280,24 @@
 		(at 0 11.48 90)
 		(size 1.1 1.1)
 		(drill 1.1)
-		(layers "F&B.Cu" "*.Mask")
-		(uuid "7bd1a56b-459e-4df3-a627-d138a2946e4f")
+		(layers "*.Cu" "*.Mask")
+		(uuid "1842e504-d8cf-4488-876e-493e17824655")
 	)
 	(pad "1" thru_hole circle
-		(at 0 1.32 90)
+		(at 0 1.32 180)
 		(size 1.8 1.8)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b9efc343-8ff3-4114-9483-b1a7e73b4c96")
+		(uuid "59d5392d-607b-4844-9e4b-0d769ac98504")
 	)
 	(pad "2" thru_hole circle
-		(at 0 6.4 90)
+		(at 0 6.4 180)
 		(size 1.8 1.8)
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "450f4efe-c0ec-4eb6-9a8b-1264ed5616a9")
+		(uuid "d5f31e7f-4f1e-4f9c-909c-14f57246b92a")
 	)
 	(embedded_fonts no)
 )

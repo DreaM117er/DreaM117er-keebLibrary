@@ -1,4 +1,4 @@
-(footprint "JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal"
+(footprint "JST_PH_S3B-PH-K_1x03_P2.00mm_Horizontal_dual"
 	(version 20241229)
 	(generator "pcbnew")
 	(generator_version "9.0")

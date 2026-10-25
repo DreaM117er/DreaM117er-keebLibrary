@@ -1,14 +1,14 @@
 (footprint "SW_MicroSwitches_Kailh_2P_THT"
-	(version 20241229)
+	(version 20260206)
 	(generator "pcbnew")
-	(generator_version "9.0")
+	(generator_version "10.0")
 	(layer "F.Cu")
 	(descr "Kailh keyswitch Hotswap Socket Keycap 2.50u 90deg")
 	(tags "Kailh Keyboard Keyswitch Switch Hotswap Socket Relief Cutout Keycap 2.50u 90deg")
 	(property "Reference" "REF**"
-		(at 0 -4.1 0)
+		(at 0 -4.5 0)
 		(layer "F.SilkS")
-		(uuid "597f1b39-2ca7-4c0a-8eac-57cf40e696b2")
+		(uuid "142eef83-a853-4d57-a99e-9a2ff3778909")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 4.5 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d79f8585-ff19-45fc-aeac-9817f19f5739")
+		(uuid "48525d29-7187-43a2-a818-038884c12607")
 		(effects
 			(font
 				(size 1 1)
@@ -32,7 +32,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d5397207-1348-4c3d-b7f8-2bf7827036ef")
+		(uuid "6e1115db-f22f-490d-8f30-987dba68cf65")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -44,7 +44,7 @@
 		(at 0 0 0)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "ba963197-c74a-47c9-b0a4-4f11bfe6f6fc")
+		(uuid "83f729c2-c8c8-43fb-9263-c09bb1b11302")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -53,6 +53,7 @@
 		)
 	)
 	(attr through_hole)
+	(duplicate_pad_numbers_are_jumpers no)
 	(fp_line
 		(start -3.1 -3.1)
 		(end -3.1 3.1)
@@ -61,7 +62,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "cc004884-9e8d-482f-8e7c-4e39e5c67520")
+		(uuid "35449b8c-de07-4d6b-afc5-7082d376d7e7")
 	)
 	(fp_line
 		(start -3.1 -3.1)
@@ -71,7 +72,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d23c0a3b-acbc-41e3-8e72-cee952f0ea92")
+		(uuid "e0349533-6fc0-41fa-b834-1efa6676cbcf")
 	)
 	(fp_line
 		(start -1.2 3.1)
@@ -81,7 +82,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "d5ea58be-6681-49f5-b043-7fef15c9f98b")
+		(uuid "05ff54ba-9aaf-43f5-9310-f7577e52efaa")
 	)
 	(fp_line
 		(start 1.2 -3.1)
@@ -91,7 +92,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "538962cc-d139-44ca-b4ea-4270765a7a24")
+		(uuid "bfa0f5f7-3c82-44c8-b473-8a9f63142b9e")
 	)
 	(fp_line
 		(start 1.2 3.1)
@@ -101,7 +102,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "8bb691de-d8a5-48dc-aea5-3f8d47ee7cb9")
+		(uuid "b8129b72-51ac-4ca5-bc2c-bb751b380b50")
 	)
 	(fp_line
 		(start 3.1 3.1)
@@ -111,7 +112,7 @@
 			(type default)
 		)
 		(layer "F.SilkS")
-		(uuid "bfd3a7ea-6663-44f0-8f7f-c3108364b776")
+		(uuid "42a354e3-c042-48bf-836d-b347f1325e16")
 	)
 	(fp_circle
 		(center 0 0)
@@ -122,7 +123,7 @@
 		)
 		(fill no)
 		(layer "F.SilkS")
-		(uuid "e4a76ec0-c3c2-4319-a369-93d848633e07")
+		(uuid "90999c50-44ba-421a-a88c-4fc6f66e7676")
 	)
 	(fp_line
 		(start -3.1 -3.1)
@@ -132,7 +133,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "143e7243-11d6-42ef-a67d-b88193948e0e")
+		(uuid "90f949f8-bbfe-44fb-8260-ec71e1003b15")
 	)
 	(fp_line
 		(start -3.1 3.1)
@@ -142,7 +143,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "f58eaa95-b7e3-41e5-a2dd-92b1fd2355bd")
+		(uuid "a5b84f80-23a9-4fd2-8d4a-eb5aee98016d")
 	)
 	(fp_line
 		(start 3.1 3.1)
@@ -152,7 +153,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "53125a99-8735-4e64-ab31-723f757dd2ad")
+		(uuid "e011278e-21f8-49b8-bcef-8bec216ee369")
 	)
 	(fp_line
 		(start 3.1 3.1)
@@ -162,7 +163,7 @@
 			(type default)
 		)
 		(layer "Dwgs.User")
-		(uuid "be6bde24-057c-428c-8a40-3659ed3d9bb9")
+		(uuid "cae487c3-5d5e-4ea9-9d4f-4b561cdd4bee")
 	)
 	(fp_circle
 		(center 0 0)
@@ -173,7 +174,7 @@
 		)
 		(fill no)
 		(layer "Dwgs.User")
-		(uuid "ccfad9a3-3d2c-49d9-b9f0-accea6aed13a")
+		(uuid "a043346e-9149-4cfc-b140-64a3337c1482")
 	)
 	(fp_line
 		(start -3.3 -3.6)
@@ -183,7 +184,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "dc05e10f-0eca-4e03-821d-3ef3e935a7eb")
+		(uuid "e1d51b68-540e-4348-9418-4db954d0b553")
 	)
 	(fp_line
 		(start -3.3 -3.6)
@@ -193,7 +194,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "a427780a-07f7-48d0-86d0-a3796bd20ee8")
+		(uuid "f28df7fa-f7f7-4d9a-98d2-e8441619b4de")
 	)
 	(fp_line
 		(start -3.3 3.6)
@@ -203,7 +204,7 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "b6f1fb7f-f771-480f-80e0-d35d4d02a3e0")
+		(uuid "45a52d00-7921-4d5f-b24c-c42935079a21")
 	)
 	(fp_line
 		(start 3.3 -3.6)
@@ -213,12 +214,12 @@
 			(type default)
 		)
 		(layer "F.CrtYd")
-		(uuid "15d36893-369e-4d1d-877f-cfcbbbeefa16")
+		(uuid "120107e5-61b4-41ca-b312-2680058edb29")
 	)
 	(fp_text user "${REFERENCE}"
 		(at 0 4.5 0)
 		(layer "F.Fab")
-		(uuid "3794bd9c-5a13-4292-9090-b4f7305dc18f")
+		(uuid "bb2ef143-3163-40aa-a896-bab46a7ec9eb")
 		(effects
 			(font
 				(size 1 1)
@@ -232,7 +233,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "b9efc343-8ff3-4114-9483-b1a7e73b4c96")
+		(uuid "35dfb2c3-2a03-412c-95ce-ee7df6d2f11d")
 	)
 	(pad "2" thru_hole circle
 		(at 0 2.54 180)
@@ -240,7 +241,7 @@
 		(drill 1.1)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "034be958-cd38-45a7-b82c-d8a7be80c728")
+		(uuid "cc6cbf10-e1cb-4325-b082-d84e730be765")
 	)
 	(embedded_fonts no)
 )
